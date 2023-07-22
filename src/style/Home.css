@@ -1,0 +1,22 @@
+h2 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+h4 {
+    font-weight: 600;
+}
+h5{
+    font-weight: 700;
+}
+.start-btn {
+    font-weight: 800;
+    padding: 13px 28px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+}

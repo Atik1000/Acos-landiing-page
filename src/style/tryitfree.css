@@ -1,0 +1,31 @@
+.no-credit {
+    font-size: 12px;
+}
+
+.card {
+    width: 100%;
+}
+
+hr {
+    width: 15%;
+}
+
+.target {
+    font-size: 10px;
+}
+
+.subscribtion-item {
+    padding: 60px;
+}
+
+.subscribtion-item li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.subscription-plan-area {
+    box-shadow:2px 2px 2px 8px rgba(0, 0, 0, 0.03);
+    width: 96%;
+    margin-left: 20px;
+    padding: 15px;
+}
