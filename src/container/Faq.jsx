@@ -64,13 +64,24 @@ const FAQ = () => {
                 </div>
             </div>
             <h3 className="text-center mb-4">Hear what others have to say</h3>
-            <div className="row">
-               
-                <div className="col-md-12">
-                    <div className="col-md-6"></div>
-                    <div className="col-md-6"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div className="box">
+                            <h6> <b>A simple, but brilliant tool</b> </h6>
+                            <p>I've been using ACoS.app for a few months now, and it has transformed my advertising game. It has helped me eliminate wasted ad spend, ultimately lowering my ACOS and increasing my overall profitability. It's a simple, but brilliant tool.</p>
+                        </div> 
+                    </div>
+                    <div class="col">
+                        <div className="box">
+                            <h6><b>A must-have for any Amazon seller</b></h6>
+                            <p>I've tried various tools to optimize my Amazon ads, but this web app takes the cake. It helped me cut down on unnecessary spending, and my ACOS has dropped significantly. It's a must-have for any Amazon seller.</p>
+                        </div> 
+                    </div>
                 </div>
             </div>
+
+ 
         </div>
     );
 };

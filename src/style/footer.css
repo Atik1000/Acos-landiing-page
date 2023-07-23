@@ -1,0 +1,16 @@
+.footer {
+    background: #f8f9fa !important;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.email-contact {
+    width: 60%;
+    height: 25%;
+    border-radius: 6px;
+    border: none;
+}

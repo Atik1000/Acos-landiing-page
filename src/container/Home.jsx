@@ -1,5 +1,7 @@
 import React from 'react';
 import '../style/Home.css';
+// import laptopImg from "../icon/laptop.svg";
+
 
 const Home = () => {
     return (
@@ -10,12 +12,13 @@ const Home = () => {
             <h4 className='text-center pb-4'>Efficient Bid Management Made Simple
                 <br />
                 Say Goodbye to Wasted Ad Spend</h4>
-            
+
             <div class="col-md-12 text-center pb-1">
                 <button type="button" className="btn btn-primary start-btn">Start optimizing for free</button>
             </div>
-    
+
             <p className='text-center'>No credit card required</p>
+            {/* <img src={laptopImg} alt="" /> */}
 
             <h5 className='text-center'>Trusted by <span className='text-primary'>Amazon Sellers</span>  and <span className='text-primary'>PPC Managers</span> worldwide</h5>
         </div>
