@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Acos from '../icon/ACoS-03.svg';
+import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
 import '../style/Header.css';
 
 const Header = () => {
@@ -19,9 +19,9 @@ const Header = () => {
           <span className='navbar-toggler-icon'></span>
         </button>
         <div className='collapse navbar-collapse' id='navbarTogglerDemo01'>
-          <a className='navbar-brand' href='#'>
-            <img src={Acos} alt='' />
-          </a>
+          <Link className='navbar-brand' to='/'>
+            <ACOSICOn style={{ height: 25 }} />
+          </Link>
 
           <ul className='navbar-nav ml-auto mt-2 mt-lg-0'>
             <li className='nav-item'>
@@ -30,7 +30,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/about'>
+              <Link className='nav-link' to='/pricing'>
                 Pricing
               </Link>
             </li>
@@ -40,7 +40,7 @@ const Header = () => {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='nav-link' to='/try-it-free'>
+              <Link className='nav-link' to='/sign-up'>
                 Sign In
               </Link>
             </li>

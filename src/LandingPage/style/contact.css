@@ -1,0 +1,9 @@
+.contact-area{
+        background: #f8f9fb !important;
+}
+.send-btn {
+    height: 55px;
+    width: 163px;
+    font-weight: bold;
+    font-size: 20px;
+}

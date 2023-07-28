@@ -1,17 +1,21 @@
 
 import React from 'react';
+
+import whatisACos from '../icon/Screenshot.png';
 import '../style/howwork.css';
 
 const HowWork = () => {
     return (
         <div className='container'>
             <div className="row align-items-center">
-                <div className="col-6 col-md-4">.col-6 .col-md-4</div>
-                <div className="col-6 col-md-4">
+                <div className="col">
+                    <img src={whatisACos} alt="whatisACos" className='whatisACos' />
+                </div>
+                <div className="col">
                     <h5 className='pb-4'>What is ACoS.app?</h5>
                     <p>ACoS.app is a powerful web application designed specifically to <b>optimize bids</b> for Amazon's Pay-Per-Click (PPC) advertising campaigns. With its user-friendly interface and advanced algorithms, ACoS.app empowers Amazon sellers to <b>reduce wasted ad spend </b> and <b>lower ACoS</b> (Advertising Cost of Sale).</p>
                 </div>
-               
+
             </div>
             <div class="row mt-4 pt-4">
                 <div class="col-6">
@@ -20,9 +24,10 @@ const HowWork = () => {
 
                 </div>
                 <div class="col-6">
-                     </div>
+                  
+                </div>
             </div>
-            
+
         </div>
     );
 };

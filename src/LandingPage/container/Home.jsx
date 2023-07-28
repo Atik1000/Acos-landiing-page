@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/Home.css';
-// import laptopImg from "../icon/laptop.svg";
+import LaptopIcon from '../icon/laptop.png';
+import AmazonAds from '../icon/amazon-01.png';
 
 
 const Home = () => {
@@ -18,9 +19,15 @@ const Home = () => {
             </div>
 
             <p className='text-center'>No credit card required</p>
-            {/* <img src={laptopImg} alt="" /> */}
+            <div className="d-flex justify-content-center">
+                <img src={LaptopIcon} alt="laptop" className='laptop' />
+            </div>
+
 
             <h5 className='text-center'>Trusted by <span className='text-primary'>Amazon Sellers</span>  and <span className='text-primary'>PPC Managers</span> worldwide</h5>
+            <div className="d-flex justify-content-center mt-4 pt-4">
+                <img src={AmazonAds} alt="amazon" className='amazon' />
+            </div>
         </div>
     );
 };

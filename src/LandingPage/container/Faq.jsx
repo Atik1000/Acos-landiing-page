@@ -1,6 +1,10 @@
 import React from 'react';
-import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
 import '../style/faq.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import Man1 from '../icon/man-1.png';
+import Man2 from '../icon/man-2.png';
+
 const FAQ = () => {
   const faqData = [
     {
@@ -47,7 +51,9 @@ const FAQ = () => {
 
   return (
     <div className='container'>
-      <h3 className='text-center mb-4'>Frequently Asked Questions</h3>
+      <h3 className='text-center mb-4'>
+        <b>Frequently Asked Questions</b>
+      </h3>
       <div className='row'>
         <div
           style={{
@@ -61,15 +67,17 @@ const FAQ = () => {
             <div className='card' key={index}>
               <div className='card-header' id={`heading${index}`}>
                 <h5 className='mb-0'>
-                  <button
-                    className='btn btn-link'
+                  <p
+                    className='btn'
                     data-toggle='collapse'
                     data-target={`#collapse${index}`}
                     aria-expanded='true'
                     aria-controls={`collapse${index}`}
                   >
                     {item.question}
-                  </button>
+                    <FontAwesomeIcon icon={faPlus} />
+                  </p>
+          
                 </h5>
               </div>
               <div
@@ -83,48 +91,21 @@ const FAQ = () => {
             </div>
           ))}
         </div>
-        <div className='col-md-12'>
-          {/* <div className='col-md-6'>
-            {' '}
-            <div id='accordion'>
-              {faqData.map((item, index) => (
-                <div className='card' key={index}>
-                  <div className='card-header' id={`heading${index}`}>
-                    <h5 className='mb-0'>
-                      <button
-                        className='btn btn-link'
-                        data-toggle='collapse'
-                        data-target={`#collapse${index}`}
-                        aria-expanded='true'
-                        aria-controls={`collapse${index}`}
-                      >
-                        {item.question}
-                      </button>
-                    </h5>
-                  </div>
-                  <div
-                    id={`collapse${index}`}
-                    className={`collapse ${index === 0 ? 'show' : ''}`}
-                    aria-labelledby={`heading${index}`}
-                    data-parent='#accordion'
-                  >
-                    <div className='card-body'>{item.answer}</div>
-                  </div>
-                </div>
-              ))}
-            </div> */}
-
-          <div className='col-md-6'></div>
-        </div>
+        
       </div>
-      <h3 className='text-center mb-4'>Hear what others have to say</h3>
+      <h3 className='text-center mb-4 mt-4 pt-4'>
+        <b>Hear what others have to say</b>
+      
+
+      </h3>
+  
       <div class='container'>
-        <div class='row'>
+        <div class='row mb-4 pb-4'>
           <div class='col'>
             <div className='box'>
               <h6>
-                {' '}
-                <b>A simple, but brilliant tool</b>{' '}
+  
+                <b>A simple, but brilliant tool</b>
               </h6>
               <p>
                 I've been using ACoS.app for a few months now, and it has
@@ -132,6 +113,12 @@ const FAQ = () => {
                 wasted ad spend, ultimately lowering my ACOS and increasing my
                 overall profitability. It's a simple, but brilliant tool.
               </p>
+              <img src={Man1} alt="man" className='man' />
+              <span><b>Anthony Nelson</b>
+                
+              </span>
+              <br />
+              <span>   Veridian Group </span>
             </div>
           </div>
           <div class='col'>
@@ -145,12 +132,15 @@ const FAQ = () => {
                 spending, and my ACOS has dropped significantly. It's a
                 must-have for any Amazon seller.
               </p>
+              <img src={Man2} alt="man" className='man' />
+              <span><b>Ethan Roberts</b>
+                <br />
+                Astralite Corp
+              </span>
             </div>
           </div>
         </div>
       </div>
-
-      <ACOSICOn style={{ height: 200 }} />
     </div>
   );
 };

@@ -1,9 +1,18 @@
 import React from 'react';
-import '../style/tryitfree.css'
+import '../style/pricing.css';
+import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
-const TryItFree = () => {
+const Pricing = () => {
     return (
         <div className='container'>
+            <div className="d-flex justify-content-center mb-4 pb-4">
+                <ACOSICOn style={{ height: 50 }} />
+            </div>
+            
+
             <h2 className='text-center mb-2'>Try it free</h2>
             <p className='text-center no-credit'>No Credit Card Required
                 <br />
@@ -17,7 +26,10 @@ const TryItFree = () => {
 
                 <p className='text-center target'>per Keyword or Target</p>
                 <div className='col d-flex justify-content-center mb-4'>
-                    <button class="btn btn-primary start-btn">Start with 1000 free tokens</button>
+              
+                    <Link className='btn btn-primary start-btn'  to='/downloadbulk'>
+                        Start with 1000 free tokens
+                    </Link>
                 </div>
                 <p className='text-center target'>Good to Optimize 1000 Keywords or Targets</p>
             </div>
@@ -28,7 +40,7 @@ const TryItFree = () => {
 
 
                     <ul className='card-header subscribtion-item'>
-                        <li>Optimize your bids for a fraction of what you'll save in ad spend</li>
+                        <li><FontAwesomeIcon icon={faCheckCircle} /> Optimize your bids for a fraction of what you'll save in ad spend</li>
                         <li>Utilize your tokens whenever needed</li>
                         <li>No hidden charges, tiers and features</li>
                         <li>More tokens can be purchased at any time</li>
@@ -43,4 +55,4 @@ const TryItFree = () => {
     );
 };
 
-export default TryItFree;
+export default Pricing;
