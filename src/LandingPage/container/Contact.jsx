@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
-import '../style/contact.css'
+import '../style/landingpage/contact.css'
 
 const Contact = () => {
     return (

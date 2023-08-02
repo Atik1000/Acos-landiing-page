@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/pricing.css';
+import '../style/landingpage/pricing.css';
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
@@ -27,7 +27,7 @@ const Pricing = () => {
                 <p className='text-center target'>per Keyword or Target</p>
                 <div className='col d-flex justify-content-center mb-4'>
               
-                    <Link className='btn btn-primary start-btn'  to='/downloadbulk'>
+                    <Link className='btn btn-primary start-btn' to='/upload-file'>
                         Start with 1000 free tokens
                     </Link>
                 </div>

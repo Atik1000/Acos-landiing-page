@@ -2,7 +2,8 @@
 import React from 'react';
 
 import whatisACos from '../icon/Screenshot.png';
-import '../style/howwork.css';
+import '../style/landingpage/howwork.css';
+import { Link } from 'react-router-dom';
 
 const HowWork = () => {
     return (
@@ -17,32 +18,32 @@ const HowWork = () => {
                 </div>
 
             </div>
-            <div class="row mt-4 pt-4">
-                <div class="col-6">
-                    <h5 pb-4>How Does it Work?</h5>
-                    <p>Using a robust bid management system, ACoS.app analyzes historical campaign data from Bulk Files to identify underperforming keywords and targets and make the appropriate bid adjustments. ACoS.app offers the easiest and most streamlined solution for making bid adjustments in bulk, saving you valuable time and effort and reducing the chance of errors.</p>
-
+            <div className="row mt-4 pt-4">
+                <div className="col-6">
+                    <h5 className="pb-4" >How Does it Work?</h5>
+                    <p className='pb-4 mb-4'>Using a robust bid management system, ACoS.app analyzes historical campaign data from <b>Bulk Files</b>  to identify underperforming keywords and targets and make the appropriate bid adjustments. ACoS.app offers the easiest and most streamlined solution for making bid adjustments in bulk, <b>saving you valuable time and effort</b> and reducing the chance of errors.</p>
+                    <p className='mt-4 pt-4'><b>For a detailed How-to Guide, please click <Link>here</Link> </b> </p>
                 </div>
-                <div class="col-6">
-                    <ul class="list-unstyled custom-list">
+                <div className="col-6">
+                    <ul className="list-unstyled custom-list">
                         <li>
-                            <div class="circle">1</div>
-                            <div class="content">
-                                <p><b>DOWNLOAD YOUR BULK FILES</b></p>
+                            <div className="circle">1</div>
+                            <div className="content">
+                                <p className='text-1'><b>DOWNLOAD YOUR BULK FILES</b></p>
                                 From your Amazon Ad Console go to the Bulk Operations Portal to generate and download your Bulk Files
                             </div>
                         </li>
                         <li>
-                            <div class="circle">2</div>
-                            <div class="content">
-                                <p><b>UPLOAD BULK FILES TO ACoS.app</b></p>
+                            <div className="circle">2</div>
+                            <div className="content">
+                                <p className='text-2'><b>UPLOAD BULK FILES TO ACoS.app</b></p>
                                 Upload your Bulk Files to ACos.app and watch the magic happen - with a few simple clicks your bids are optimized.
                             </div>
                         </li>
                         <li>
-                            <div class="circle">3</div>
-                            <div class="content">
-                                <p><b>DOWNLOAD & UPLOAD TO AMAZON</b></p>
+                            <div className="circle">3</div>
+                            <div className="content">
+                                <p className='text-3'><b>DOWNLOAD & UPLOAD TO AMAZON</b></p>
                                 Once the bid adjustments are successfully applied, download the modified Bulk File from ACoS.app, go to the Bulk Operations Portal and upload the Bulk File.
                             </div>
                         </li>

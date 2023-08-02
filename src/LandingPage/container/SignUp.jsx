@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
 import { Link } from 'react-router-dom';
-import '../style/signup.css';
+import '../style/landingpage/signup.css';
 import googleIcon from '../icon/Google logo/1497553309-101_84843.png';
 
 

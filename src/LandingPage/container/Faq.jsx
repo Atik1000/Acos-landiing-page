@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/faq.css';
+import '../style/landingpage/faq.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import Man1 from '../icon/man-1.png';

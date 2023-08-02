@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
-import '../style/Header.css';
+import '../style/landingpage/Header.css';
 
 const Header = () => {
   return (

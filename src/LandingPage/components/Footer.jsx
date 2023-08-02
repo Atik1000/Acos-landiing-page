@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
-import '../style/footer.css';
+import '../style/landingpage/footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

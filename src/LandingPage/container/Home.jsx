@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/Home.css';
+import '../style/landingpage/Home.css';
 import LaptopIcon from '../icon/laptop.png';
 import AmazonAds from '../icon/amazon-01.png';
 
