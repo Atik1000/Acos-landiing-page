@@ -1,9 +1,9 @@
-import React from 'react';
-import '../style/landingpage/faq.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import Man1 from '../icon/man-1.png';
 import Man2 from '../icon/man-2.png';
+import '../style/landingpage/faq.css';
 
 const FAQ = () => {
   const faqData = [
@@ -64,25 +64,23 @@ const FAQ = () => {
           }}
         >
           {faqData.map((item, index) => (
-            <div className='card' key={index}>
+            <div
+              className='card'
+              key={index}
+              data-toggle='collapse'
+              data-target={`#collapse${index}`}
+              aria-expanded='true'
+              aria-controls={`collapse${index}`}
+            >
               <div className='card-header' id={`heading${index}`}>
                 <h5 className='mb-0'>
-                  <p
-                    className='btn'
-                    data-toggle='collapse'
-                    data-target={`#collapse${index}`}
-                    aria-expanded='true'
-                    aria-controls={`collapse${index}`}
-                  >
-                    {item.question}
-                    <FontAwesomeIcon icon={faPlus} />
-                  </p>
-          
+                  <p className='btn mb-0'>{item.question}</p>
                 </h5>
+                <FontAwesomeIcon icon={faPlus} />
               </div>
               <div
                 id={`collapse${index}`}
-                className={`collapse ${index === 0 ? 'show' : ''}`}
+                className={`collapse ${index === -1 ? 'show' : ''}`}
                 aria-labelledby={`heading${index}`}
                 data-parent='#accordion'
               >
@@ -91,20 +89,16 @@ const FAQ = () => {
             </div>
           ))}
         </div>
-        
       </div>
       <h3 className='text-center mb-4 mt-4 pt-4'>
         <b>Hear what others have to say</b>
-      
-
       </h3>
-  
+
       <div class='container'>
         <div class='row mb-4 pb-4'>
           <div class='col'>
             <div className='box'>
               <h6>
-  
                 <b>A simple, but brilliant tool</b>
               </h6>
               <p>
@@ -113,12 +107,12 @@ const FAQ = () => {
                 wasted ad spend, ultimately lowering my ACOS and increasing my
                 overall profitability. It's a simple, but brilliant tool.
               </p>
-              <img src={Man1} alt="man" className='man' />
-              <span><b>Anthony Nelson</b>
-                
+              <img src={Man1} alt='man' className='man' />
+              <span>
+                <b>Anthony Nelson</b>
               </span>
               <br />
-              <span>   Veridian Group </span>
+              <span> Veridian Group </span>
             </div>
           </div>
           <div class='col'>
@@ -132,8 +126,9 @@ const FAQ = () => {
                 spending, and my ACOS has dropped significantly. It's a
                 must-have for any Amazon seller.
               </p>
-              <img src={Man2} alt="man" className='man' />
-              <span><b>Ethan Roberts</b>
+              <img src={Man2} alt='man' className='man' />
+              <span>
+                <b>Ethan Roberts</b>
                 <br />
                 Astralite Corp
               </span>

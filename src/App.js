@@ -1,38 +1,76 @@
 import React from 'react';
-import {
- 
-  Route,
-  Routes,
-} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
+import Dashboard from './Dashboard/index';
+// import Dashboard from './Dashboard/components/AdminLayout';
 import Layout from './LandingPage/components/Layout';
-import FAQ from './LandingPage/container/Faq';
-import Home from './LandingPage/container/Home';
-import HowWork from './LandingPage/container/HowWork';
-import NotFound from './LandingPage/container/notfound';
-import Pricing from './LandingPage/container/Pricing';
 import Contact from './LandingPage/container/Contact';
+import FAQ from './LandingPage/container/Faq';
+import HowWork from './LandingPage/container/HowWork';
+import Pricing from './LandingPage/container/Pricing';
 import SignUp from './LandingPage/container/SignUp';
-// import AdminLayout from './Dashboard/components/AdminLayout';
 import UploadBulk from './LandingPage/container/UploadBulk';
+import NotFound from './LandingPage/container/notfound';
+import { HomePage } from './LandingPage/pages/HomePage';
 
 const App = () => {
   return (
     <>
-    <Layout>
+      {/* <Layout> */}
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/how-its-work' element={<HowWork />} />
-        <Route path='/faq' element={<FAQ />} />
-        <Route path='/pricing' element={<Pricing />} />
-          <Route path='/contact' element={<Contact />} />
-           <Route path='/upload-file' element={<UploadBulk />} />
-          <Route path='/sign-up' element={<SignUp />} />   
-        {/* <Route path='/admin' element={<AdminLayout />} />      */}
+        <Route path='/' element={<HomePage />} />
+        <Route
+          path='/how-its-work'
+          element={
+            <Layout>
+              <HowWork />
+            </Layout>
+          }
+        />
+        <Route
+          path='/faq'
+          element={
+            <Layout>
+              <FAQ />
+            </Layout>
+          }
+        />
+        <Route
+          path='/pricing'
+          element={
+            <Layout>
+              <Pricing />
+            </Layout>
+          }
+        />
+        <Route
+          path='/contact'
+          element={
+            <Layout>
+              <Contact />
+            </Layout>
+          }
+        />
+        <Route
+          path='/upload-file'
+          element={
+            <Layout>
+              <UploadBulk />
+            </Layout>
+          }
+        />
+        <Route
+          path='/sign-up'
+          element={
+            <Layout>
+              <SignUp />
+            </Layout>
+          }
+        />
+        <Route path='/admin' element={<Dashboard />} />
         <Route path='*' element={<NotFound />} />
-        
       </Routes>
-      </Layout>
-      </>
+      {/* </Layout> */}
+    </>
   );
 };
 
