@@ -1,16 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import LeftSidebar from './components/LeftSidebar';
+import AdminLayout from './components/AdminLayout';
 
-const AdminLayout = ({children}) => {
+const index = () => {
     return (
         <div>
-            <Navbar />
-            {children}
-            <LeftSidebar />
-            
+            <AdminLayout>
+                {/* Add your page content here */}
+            </AdminLayout>
         </div>
     );
 };
 
-export default AdminLayout;
+export default index;

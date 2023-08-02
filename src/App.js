@@ -13,7 +13,7 @@ import Pricing from './LandingPage/container/Pricing';
 import DownloadBulk from './LandingPage/container/DownloadBulk';
 import Contact from './LandingPage/container/Contact';
 import SignUp from './LandingPage/container/SignUp';
-import AdminLayout from './admin';
+import AdminLayout from './admin/components/AdminLayout';
 
 const App = () => {
   return (
@@ -26,9 +26,9 @@ const App = () => {
         <Route path='/pricing' element={<Pricing />} />
         <Route path='/downloadbulk' element={<DownloadBulk />} />
         <Route path='/contact' element={<Contact />} />
-          <Route path='/sign-up' element={<SignUp />} />
-            <Route path='/admin' element={<AdminLayout />} />
-          <Route path='*' element={<NotFound />} />
+          <Route path='/sign-up' element={<SignUp />} />   
+        <Route path='/admin' element={<AdminLayout />} />     
+        <Route path='*' element={<NotFound />} />
         
       </Routes>
       </Layout>

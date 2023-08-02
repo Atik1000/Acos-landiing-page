@@ -24,6 +24,31 @@ const HowWork = () => {
 
                 </div>
                 <div class="col-6">
+                    <ul class="list-unstyled custom-list">
+                        <li>
+                            <div class="circle">1</div>
+                            <div class="content">
+                                <p><b>DOWNLOAD YOUR BULK FILES</b></p>
+                                From your Amazon Ad Console go to the Bulk Operations Portal to generate and download your Bulk Files
+                            </div>
+                        </li>
+                        <li>
+                            <div class="circle">2</div>
+                            <div class="content">
+                                <p><b>UPLOAD BULK FILES TO ACoS.app</b></p>
+                                Upload your Bulk Files to ACos.app and watch the magic happen - with a few simple clicks your bids are optimized.
+                            </div>
+                        </li>
+                        <li>
+                            <div class="circle">3</div>
+                            <div class="content">
+                                <p><b>DOWNLOAD & UPLOAD TO AMAZON</b></p>
+                                Once the bid adjustments are successfully applied, download the modified Bulk File from ACoS.app, go to the Bulk Operations Portal and upload the Bulk File.
+                            </div>
+                        </li>
+                      
+                    </ul>
+
                   
                 </div>
             </div>
