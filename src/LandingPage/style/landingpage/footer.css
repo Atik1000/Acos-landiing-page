@@ -6,6 +6,7 @@
 ul li {
     list-style: none;
     margin-bottom: 20px;
+    color: #000;
 }
 
 .email-contact {
@@ -13,4 +14,13 @@ ul li {
     height: 25%;
     border-radius: 6px;
     border: none;
+}
+
+li a {
+    color: #000;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #000;
 }

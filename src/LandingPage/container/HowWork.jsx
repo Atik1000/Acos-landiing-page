@@ -27,30 +27,30 @@ const HowWork = () => {
                 <div className="col-6">
                     <ul className="list-unstyled custom-list">
                         <li>
-                            <div className="circle">1</div>
+                            <div className="circle circle1">1</div>
                             <div className="content">
-                                <p className='text-1'><b>DOWNLOAD YOUR BULK FILES</b></p>
+                                <p className='text-1 text-primary'><b>DOWNLOAD YOUR BULK FILES</b></p>
                                 From your Amazon Ad Console go to the Bulk Operations Portal to generate and download your Bulk Files
                             </div>
                         </li>
                         <li>
-                            <div className="circle">2</div>
+                            <div className="circle circle2">2</div>
                             <div className="content">
-                                <p className='text-2'><b>UPLOAD BULK FILES TO ACoS.app</b></p>
+                                <p className='text-dark'><b>UPLOAD BULK FILES TO ACoS.app</b></p>
                                 Upload your Bulk Files to ACos.app and watch the magic happen - with a few simple clicks your bids are optimized.
                             </div>
                         </li>
                         <li>
-                            <div className="circle">3</div>
+                            <div className="circle circle3">3</div>
                             <div className="content">
                                 <p className='text-3'><b>DOWNLOAD & UPLOAD TO AMAZON</b></p>
                                 Once the bid adjustments are successfully applied, download the modified Bulk File from ACoS.app, go to the Bulk Operations Portal and upload the Bulk File.
                             </div>
                         </li>
-                      
+
                     </ul>
 
-                  
+
                 </div>
             </div>
 

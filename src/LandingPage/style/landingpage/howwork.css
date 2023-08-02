@@ -21,8 +21,7 @@ h5 {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: #007bff;
-
+    
     color: #ffffff;
     display: flex;
     align-items: center;
@@ -30,13 +29,26 @@ h5 {
     font-weight: bold;
     font-size: 60px;
     margin-right: 10px;
+    border: 10px solid gainsboro;
+}
+.circle1{
+background-color: #007bff !important;
+}
+.circle2{
+    background-color: #343a40 !important;
+}
+.circle3{
+    background-color: orange !important;
 }
 
 .content {
     background-color: #f8f9fa;
-    /* You can use any color you like */
+
     padding: 10px;
     flex: 1;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.text-3{
+    color: orange;
 }

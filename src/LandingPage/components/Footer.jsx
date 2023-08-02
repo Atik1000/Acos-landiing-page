@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className="col">
                                 <ACOSICOn style={{ height: 25 }} />
 
-                                <p><small>copyright 2023 ACoS.app</small></p>
+                                <p className='mt-4 pt-4'><small>copyright 2023 ACoS.app</small></p>
                             </div>
                             <div className="col">
                                 <ul>
@@ -38,7 +38,8 @@ const Footer = () => {
                     </div>
 
                     <div className="col-md-5">
-                        <p>Get exclusive access to new tools as they're released</p>
+                        <ul>
+                            <li>Get exclusive access to new tools as they're released</li></ul>
                         <input type="email" className="email-contact" placeholder='Email' />
                         <button type="button" className="btn btn-dark ml-4">subscribe</button>
 

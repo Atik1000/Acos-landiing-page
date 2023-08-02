@@ -4,6 +4,18 @@
 .send-btn {
     height: 55px;
     width: 163px;
-    font-weight: bold;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.form-control{
+    border: none;
+    height: 50px;
+}
+#message{
+    height: 200px;
+}
+.email-name{
+    font-weight: normal;
     font-size: 20px;
 }
