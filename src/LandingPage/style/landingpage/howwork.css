@@ -1,6 +1,13 @@
+
+#how-it-work{
+    background: ghostwhite;
+}
 h5 {
     font-weight: bold;
     font-size: 32px;
+}
+p{
+    font-weight: normal;
 }
 .whatisACos{
     height: 260px;
@@ -38,17 +45,30 @@ background-color: #007bff !important;
     background-color: #343a40 !important;
 }
 .circle3{
-    background-color: orange !important;
+    background-color: #E67E22 !important;
 }
 
 .content {
-    background-color: #f8f9fa;
+        background-color: #f8f9fa;
+        padding: 15px;
+        flex: 1 1;
+        border-radius: 5px;
+        box-shadow: 0 2px 32px rgba(0, 0, 0, 0.1)
+}
+.content-main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 
-    padding: 10px;
-    flex: 1;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.content-icon{
+    background: #007bff;
+    height: 100%;
+
+}
+.content-icon i {
+    font-size: 50px;
 }
 .text-3{
-    color: orange;
+    color: #E67E22;
 }
