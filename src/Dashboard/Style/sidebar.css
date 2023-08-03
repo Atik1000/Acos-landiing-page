@@ -1,6 +1,69 @@
 .sidebar-container {
-  width: 230px;
-  min-height: 70vh;
-  padding: 20px;
-  background-color: antiquewhite;
+    width: 330px;
+    min-height: 70vh;
+    padding: 20px;
+    background-color: white;
+}
+
+.how-to-guide {
+    font-size: 25px;
+    font-weight: 300 !important;
+}
+
+.mode {
+    font-weight: 300 !important;
+    font-size: 18px;
+}
+
+
+/* Add this to your sidebar.css */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 20px;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    cursor: pointer;
+}
+
+.slider:before {
+    position: absolute;
+    content: '';
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 1px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked+.slider {
+    background: rgb(28, 126, 208);
+    /* Color when the switch is on */
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
 }
