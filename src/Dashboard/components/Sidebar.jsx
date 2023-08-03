@@ -62,7 +62,7 @@ const Sidebar = () => {
                                 />
                                 <span className="slider "></span>
                             </label>
-                            <span className="ml-2 mode"> Advanced mode </span>
+                            <span className="ml-2 mode"> Advanced Mode </span>
                         </div>
                     </div>
                 </div>
