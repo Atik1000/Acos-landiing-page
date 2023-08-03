@@ -1,6 +1,13 @@
+
+#how-it-work{
+    background: ghostwhite;
+}
 h5 {
     font-weight: bold;
     font-size: 32px;
+}
+p{
+    font-weight: normal;
 }
 .whatisACos{
     height: 260px;

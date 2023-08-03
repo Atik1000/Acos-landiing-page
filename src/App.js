@@ -1,25 +1,26 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import Dashboard from './Dashboard/index';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "./Dashboard/index";
 // import Dashboard from './Dashboard/components/AdminLayout';
-import Layout from './LandingPage/components/Layout';
-import Contact from './LandingPage/container/Contact';
-import FAQ from './LandingPage/container/Faq';
-import HowWork from './LandingPage/container/HowWork';
-import Pricing from './LandingPage/container/Pricing';
-import SignUp from './LandingPage/container/SignUp';
-import UploadBulk from './LandingPage/container/UploadBulk';
-import NotFound from './LandingPage/container/notfound';
-import { HomePage } from './LandingPage/pages/HomePage';
+import Layout from "./LandingPage/components/Layout";
+import Contact from "./LandingPage/container/Contact";
+import FAQ from "./LandingPage/container/Faq";
+import HowWork from "./LandingPage/container/HowWork";
+import Pricing from "./LandingPage/container/Pricing";
+import SignUp from "./LandingPage/container/SignUp";
+import UploadBulk from "./LandingPage/container/UploadBulk";
+import NotFound from "./LandingPage/container/notfound";
+// import { HomePage } from './LandingPage/pages/HomePage';
+import LandingHome from "./LandingPage/components/LandingHome";
 
 const App = () => {
   return (
     <>
       {/* <Layout> */}
       <Routes>
-        <Route path='/' element={<HomePage />} />
+        <Route path="/" element={<LandingHome />} />
         <Route
-          path='/how-its-work'
+          path="/how-its-work"
           element={
             <Layout>
               <HowWork />
@@ -27,7 +28,7 @@ const App = () => {
           }
         />
         <Route
-          path='/faq'
+          path="/faq"
           element={
             <Layout>
               <FAQ />
@@ -35,7 +36,7 @@ const App = () => {
           }
         />
         <Route
-          path='/pricing'
+          path="/pricing"
           element={
             <Layout>
               <Pricing />
@@ -43,7 +44,7 @@ const App = () => {
           }
         />
         <Route
-          path='/contact'
+          path="/contact"
           element={
             <Layout>
               <Contact />
@@ -51,7 +52,7 @@ const App = () => {
           }
         />
         <Route
-          path='/upload-file'
+          path="/upload-file"
           element={
             <Layout>
               <UploadBulk />
@@ -59,15 +60,15 @@ const App = () => {
           }
         />
         <Route
-          path='/sign-up'
+          path="/sign-up"
           element={
             <Layout>
               <SignUp />
             </Layout>
           }
         />
-        <Route path='/admin' element={<Dashboard />} />
-        <Route path='*' element={<NotFound />} />
+        <Route path="/admin" element={<Dashboard />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       {/* </Layout> */}
     </>

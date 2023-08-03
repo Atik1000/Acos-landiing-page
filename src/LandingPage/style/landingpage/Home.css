@@ -1,16 +1,16 @@
 h2 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 50px;
 }
 
 h4 {
-    font-weight: 600;
+    font-weight: 500;
 }
 h5{
-    font-weight: 700;
+    font-weight: 500;
 }
 .start-btn {
-    font-weight: 800;
+    font-weight: 500;
     padding: 13px 28px;
     font-size: 20px;
     border-radius: 15px;
