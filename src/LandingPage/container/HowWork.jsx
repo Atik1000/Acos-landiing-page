@@ -2,6 +2,8 @@ import React from "react";
 import whatisACos from "../icon/Screenshot.png";
 import "../style/landingpage/howwork.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowDown, faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 const HowWork = () => {
   return (
@@ -45,12 +47,18 @@ const HowWork = () => {
             <ul className="list-unstyled custom-list">
               <li>
                 <div className="circle circle1">1</div>
-                <div className="content" style={{ fontWeight: 400 }}>
-                  <p className="text-1 text-primary">
-                    <b>DOWNLOAD YOUR BULK FILES</b>
-                  </p>
-                  From your Amazon Ad Console go to the Bulk Operations Portal
-                  to generate and download your Bulk Files
+
+                <div className="content-main">
+                  <div className="content-icon">
+                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:50,color:"white"}} />
+                  </div>
+                  <div className="content" style={{ fontWeight: 400 }}>
+                    <p className="text-1 text-primary">
+                      <b>DOWNLOAD YOUR BULK FILES</b>
+                    </p>
+                    From your Amazon Ad Console go to the Bulk Operations Portal
+                    to generate and download your Bulk Files
+                  </div>
                 </div>
               </li>
               <li>
