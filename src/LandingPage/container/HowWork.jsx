@@ -3,7 +3,7 @@ import whatisACos from "../icon/Screenshot.png";
 import "../style/landingpage/howwork.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown, faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import {faArrowDown, faArrowUp, faCaretDown} from "@fortawesome/free-solid-svg-icons";
 
 const HowWork = () => {
   return (
@@ -46,11 +46,13 @@ const HowWork = () => {
           <div className="col-6">
             <ul className="list-unstyled custom-list">
               <li>
-                <div className="circle circle1">1</div>
+                <div className="circle-area">
+                  <div className="circle circle1">1</div>
+                </div>
 
                 <div className="content-main">
                   <div className="content-icon">
-                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:50,color:"white"}} />
+                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:30,color:"white"}} />
                   </div>
                   <div className="content" style={{ fontWeight: 400 }}>
                     <p className="text-1 text-primary">
@@ -61,27 +63,46 @@ const HowWork = () => {
                   </div>
                 </div>
               </li>
+
               <li>
-                <div className="circle circle2">2</div>
-                <div className="content" style={{ fontWeight: 400 }}>
-                  <p className="text-dark">
-                    <b>UPLOAD BULK FILES TO ACoS.app</b>
-                  </p>
-                  Upload your Bulk Files to ACos.app and watch the magic happen
-                  - with a few simple clicks your bids are optimized.
+                <div className="circle-area">
+                  <div className="circle circle1">1</div>
+                </div>
+
+                <div className="content-main">
+                  <div className="content-icon">
+                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:30,color:"white"}} />
+                  </div>
+                  <div className="content" style={{ fontWeight: 400 }}>
+                    <p className="text-1 text-primary">
+                      <b>DOWNLOAD YOUR BULK FILES</b>
+                    </p>
+                    From your Amazon Ad Console go to the Bulk Operations Portal
+                    to generate and download your Bulk Files
+                  </div>
                 </div>
               </li>
+
               <li>
-                <div className="circle circle3">3</div>
-                <div className="content" style={{ fontWeight: 400 }}>
-                  <p className="text-3">
-                    <b>DOWNLOAD & UPLOAD TO AMAZON</b>
-                  </p>
-                  Once the bid adjustments are successfully applied, download
-                  the modified Bulk File from ACoS.app, go to the Bulk
-                  Operations Portal and upload the Bulk File.
+                <div className="circle-area">
+                  <div className="circle circle1">1</div>
+                </div>
+
+                <div className="content-main">
+                  <div className="content-icon">
+                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:30,color:"white"}} />
+                    <FontAwesomeIcon icon={faArrowDown} style={{fontSize:30,color:"white"}} />
+                  </div>
+                  <div className="content" style={{ fontWeight: 400 }}>
+                    <p className="text-1 text-primary">
+                      <b>DOWNLOAD YOUR BULK FILES</b>
+                    </p>
+                    From your Amazon Ad Console go to the Bulk Operations Portal
+                    to generate and download your Bulk Files
+                  </div>
                 </div>
               </li>
+
             </ul>
           </div>
         </div>

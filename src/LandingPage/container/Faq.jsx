@@ -125,12 +125,16 @@ const FAQ = () => {
                   overall profitability. It's a simple, but brilliant tool.
                 </i>
               </p>
-              <img src={Man1} alt="man" className="man" />
-              <span>
-                <b>Anthony Nelson</b>
-              </span>
-              <br />
-              <span> Veridian Group </span>
+
+              <div className="testimonial-person">
+                <img src={Man1} alt="man" className="man tertimonial-person-image" />
+               <div className="testimonial-person-name-des">
+                 <div className="testimonial-person-name">
+                   <b>Anthony Nelson</b>
+                 </div>
+                 <div className="tertimonial-person-description"> Veridian Group </div>
+               </div>
+              </div>
             </div>
           </div>
           <div class="col">
