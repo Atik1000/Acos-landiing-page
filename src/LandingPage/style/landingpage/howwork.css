@@ -1,90 +1,95 @@
-
-#how-it-work{
-    background: ghostwhite;
+#how-it-work {
+  background: ghostwhite;
 }
 h5 {
-    font-weight: bold;
-    font-size: 32px;
+  font-weight: bold;
+  font-size: 32px;
 }
-p{
-    font-weight: normal;
+p {
+  font-weight: normal;
 }
-.whatisACos{
-    height: 260px;
+.whatisACos {
+  height: 260px;
 }
 /* Custom CSS for the list */
 .custom-list {
-    list-style-type: none;
-    padding-left: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .custom-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px !important;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px !important;
 }
 
 .circle {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 60px;
-    margin-right: 10px;
-    border: 10px solid gainsboro;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-right: 10px;
+  border: 10px solid gainsboro;
 }
-.circle1{
-background-color: #007bff !important;
+.circle1 {
+  background-color: #007bff !important;
 }
-.circle2{
-    background-color: #343a40 !important;
+.circle2 {
+  background-color: #343a40 !important;
 }
-.circle3{
-    background-color: #E67E22 !important;
+.circle3 {
+  background-color: #e67e22 !important;
 }
 
 .content {
-        background-color: #f8f9fa;
-        padding: 15px;
-        flex: 1 1;
-        border-radius: 5px;
-        box-shadow: 0 2px 32px rgba(0, 0, 0, 0.1)
+  background-color: #f8f9fa;
+  padding: 15px;
+  flex: 1 1;
+  border-radius: 5px;
+  box-shadow: 0 2px 32px rgba(0, 0, 0, 0.1);
 }
-.content-main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-
+.content-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 .content-icon {
-    background: #007bff;
-    height: 100px;
-    width: 45px;
-    text-align: center;
-    line-height: 104px;
-    border-radius: 15px 0px 0px 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /*padding: 12px 0;*/
+  height: 100px;
+  width: 45px;
+  text-align: center;
+  line-height: 104px;
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /*padding: 12px 0;*/
 }
-
+.content-icon1 {
+  background: #007bff;
+}
+.content-icon2 {
+  background: #000;
+}
+.content-icon3 {
+  background: #e67e22;
+}
 .content-icon i {
-    font-size: 50px;
+  font-size: 50px;
 }
-.text-3{
-    color: #E67E22;
+.text-3 {
+  color: #e67e22;
 }
 
 .testimonial-person {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .testimonial-person-name-des {
-    margin-left: 20px;
+  margin-left: 20px;
 }

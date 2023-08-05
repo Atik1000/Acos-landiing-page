@@ -17,6 +17,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
+    "react-drag-drop-files": "^2.3.10",
     "react-router-dom": "^6.12.1",
     "react-scripts": "5.0.1",
     "react-toggle": "^4.1.3",

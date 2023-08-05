@@ -85,10 +85,7 @@ const FAQ = () => {
             >
               <div className="card-header" id={`heading${index}`}>
                 <h5 className="mb-0">
-                  <p
-                    className="btn mb-0"
-                    onClick={() => toggleCollapse(index)}
-                  >
+                  <p className="btn mb-0" onClick={() => toggleCollapse(index)}>
                     {item.question}
                   </p>
                 </h5>
@@ -121,19 +118,25 @@ const FAQ = () => {
                 <i>
                   I've been using ACoS.app for a few months now, and it has
                   transformed my advertising game. It has helped me eliminate
-                  wasted ad spend, ultimately lowering my ACOS and increasing my
-                  overall profitability. It's a simple, but brilliant tool.
+                  wasted ad spend, ultimately lowering my ACOS. It's a simple, but brilliant tool.
                 </i>
               </p>
 
               <div className="testimonial-person">
-                <img src={Man1} alt="man" className="man tertimonial-person-image" />
-               <div className="testimonial-person-name-des">
-                 <div className="testimonial-person-name">
-                   <b>Anthony Nelson</b>
-                 </div>
-                 <div className="tertimonial-person-description"> Veridian Group </div>
-               </div>
+                <img
+                  src={Man2}
+                  alt="man"
+                  className="man tertimonial-person-image"
+                />
+                <div className="testimonial-person-name-des">
+                  <div className="testimonial-person-name">
+                    <b>Ethan Roberts</b>
+                  </div>
+                  <div className="tertimonial-person-description">
+                    {" "}
+                    Astralite Corp
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -144,19 +147,29 @@ const FAQ = () => {
               </h4>
               <p>
                 <i>
-                  {" "}
                   I've tried various tools to optimize my Amazon ads, but this
                   web app takes the cake. It helped me cut down on unnecessary
                   spending, and my ACOS has dropped significantly. It's a
                   must-have for any Amazon seller.
                 </i>
               </p>
-              <img src={Man2} alt="man" className="man" />
-              <span>
-                <b>Ethan Roberts</b>
-                <br />
-                Astralite Corp
-              </span>
+
+              <div className="testimonial-person">
+                <img
+                  src={Man1}
+                  alt="man"
+                  className="man tertimonial-person-image"
+                />
+                <div className="testimonial-person-name-des">
+                  <div className="testimonial-person-name">
+                    <b>Anthony Nelson</b>
+                  </div>
+                  <div className="tertimonial-person-description">
+                    {" "}
+                    Veridian Group{" "}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

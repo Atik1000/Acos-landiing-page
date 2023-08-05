@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as ACOSICOn } from '../icon/ACoS-03.svg';
 import { Link } from 'react-router-dom';
 import '../style/landingpage/signup.css';
-import googleIcon from '../icon/google-logo/google-final-icon.png';
+import googleIcon from "../icon/google-logo/google-logo-png-webinar-optimizing-for-success-google-business-webinar-13-removebg-preview.png";
 
 
 const SignUp = () => {

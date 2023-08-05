@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../style/landingpage/uploadbulk.css";
+import { FileUploader } from "react-drag-drop-files";
+const fileTypes = ["JSON", "Xlsx", "csv", "Pdf"];
 
 const UploadBulk = () => {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -12,6 +14,11 @@ const UploadBulk = () => {
   const handleUpload = () => {
     // Your code to handle the file upload goes here
     console.log(selectedFile);
+  };
+
+  const [file, setFile] = useState(null);
+  const handleChange = (file) => {
+    setFile(file);
   };
   return (
     <div className="container">
@@ -25,28 +32,38 @@ const UploadBulk = () => {
 
       <div className="d-flex justify-content-center">
         <h2>
-          <Link className="mb-4 pb-4">How-to guide</Link>
+          <Link className="mb-6 pb-4">How-to guide</Link>
         </h2>
       </div>
 
-      <div className="row">
-        <div className="col">
-          <div className="card">Upload Bulk File 1 Yesterday</div>
-          <input
-            type="file"
-            className="custom-file-input"
-            id="customFile"
-            onChange={handleFileChange}
-          />
-        </div>
-        <div className="col">
-          <div className="card">Upload Bulk File 2 60 Days</div>
-          <input
-            type="file"
-            className="custom-file-input"
-            id="customFile"
-            onChange={handleFileChange}
-          />
+      <div className="d-flex justify-content-center">
+        <div className="row">
+          <div className="col">
+            <div className="p-10 bg-white">
+              <div className="card">Upload Bulk File 1 Yesterday</div>
+              <div>
+                <FileUploader
+                  className="dndStyle"
+                  onChange={handleChange}
+                  name="file"
+                  types={fileTypes}
+                ></FileUploader>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-10 bg-white">
+              <div className="card">Upload Bulk File 2 60 days</div>
+              <div>
+                <FileUploader
+                  className="dndStyle"
+                  onChange={handleChange}
+                  name="file"
+                  types={fileTypes}
+                ></FileUploader>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
