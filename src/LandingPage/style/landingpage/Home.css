@@ -1,3 +1,7 @@
+.text-main{
+    color: #108ACC;
+}
+
 h2 {
     font-weight: 500;
     font-size: 50px;
@@ -14,8 +18,13 @@ h5{
     padding: 13px 28px;
     font-size: 20px;
     border-radius: 15px;
+    background-color: #108ACC;
+    color: white;
+    
 }
-
+.start-btn :hover{
+    background-color: black;
+}
 p {
     font-size: 18px;
     font-weight: 500;
