@@ -1,4 +1,4 @@
-.text-main{
+.text-main {
     color: #108ACC;
 }
 
@@ -10,9 +10,11 @@ h2 {
 h4 {
     font-weight: 500;
 }
-h5{
+
+h5 {
     font-weight: 500;
 }
+
 .start-btn {
     font-weight: 500;
     padding: 13px 28px;
@@ -20,20 +22,27 @@ h5{
     border-radius: 15px;
     background-color: #108ACC;
     color: white;
-    
 }
-.start-btn :hover{
+
+.start-btn :hover {
     background-color: black;
 }
+
 p {
     font-size: 18px;
     font-weight: 500;
 }
-.laptop{
+
+.laptop {
     height: 200px;
     width: 300px;
 }
-.amazon{
-    height: 30px;
-    width: 130px;
+
+.amazon {
+    height: 15%;
+    width: 20%;
+}
+
+.creditCard {
+    width: 25px;
 }
