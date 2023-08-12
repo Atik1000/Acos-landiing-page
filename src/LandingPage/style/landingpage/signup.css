@@ -1,12 +1,28 @@
-.icon-signup{
+.icon-signup {
     margin-top: 60px !important;
     margin-bottom: 60px !important;
 }
 
-.google-icon{
-    height: 30px;
+.google-icon {
+    height: 40px;
+    float: left;
 }
-.sign-up-btn{
+
+.sign-up-btn {
     font-size: 30px;
-    
+}
+
+.login-title {
+    font-size: 23px;
+    font-weight: 300!important;
+}
+
+button {
+    width: 32%;
+}
+
+.login-bottom-title,
+a {
+    font-size: 20px;
+    font-weight: 300!important;
 }
