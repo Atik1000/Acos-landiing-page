@@ -1,5 +1,5 @@
 .footer {
-    background: #f8f9fa !important;
+    background:#EFF3FB !important;
     padding: 20px;
 }
 
@@ -11,7 +11,7 @@ ul li {
 }
 
 .email-contact {
-    width: 60%;
+    width: 40%;
     height: 25%;
     border-radius: 6px;
     border: none;

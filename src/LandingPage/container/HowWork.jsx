@@ -1,10 +1,12 @@
 import '../style/landingpage/howwork.css';
 
-import { faArrowDown, faArrowUp, faCaretDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown, faArrowUp } from '@fortawesome/free-solid-svg-icons';
 
+import DownloadIcon from '../icon/icons8-download-64.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import React from 'react';
+import uploadIcon from '../icon/uploadIcon.png';
 import whatisACos from '../icon/Screenshot.png';
 
 const HowWork = () => {
@@ -53,17 +55,19 @@ const HowWork = () => {
 
                                 <div className="content-main">
                                     <div className="content-icon content-icon1">
-                                        <FontAwesomeIcon
-                                            icon={faArrowDown}
-                                            style={{
-                                                fontSize: 30,
-                                                color: 'white',
-                                                background: '#108ACC',
-                                            }}
-                                        />
+                                        {/* <FontAwesomeIcon
+                      icon={faArrowDown}
+                      style={{
+                        fontSize: 30,
+                        color: "white",
+                        background: "#108ACC",
+                      }}
+                    /> */}
+
+                                        <img src={DownloadIcon} alt="" />
                                     </div>
                                     <div className="content" style={{ fontWeight: 400 }}>
-                                        <p className="text-1 text-primary">
+                                        <p className="text-1">
                                             <b>DOWNLOAD YOUR BULK FILES</b>
                                         </p>
                                         From your Amazon Ad Console go to the Bulk Operations Portal
@@ -79,16 +83,10 @@ const HowWork = () => {
 
                                 <div className="content-main">
                                     <div className="content-icon content-icon2">
-                                        <FontAwesomeIcon
-                                            icon={faArrowDown}
-                                            style={{
-                                                fontSize: 30,
-                                                color: 'white',
-                                            }}
-                                        />
+                                        <img src={DownloadIcon} alt="" />
                                     </div>
                                     <div className="content" style={{ fontWeight: 400 }}>
-                                        <p className="text-1 text-dark">
+                                        <p className="text-2">
                                             <b>UPLOAD BULK FILES TO ACoS.app</b>
                                         </p>
                                         Upload your Bulk Files to ACos.app and watch the magic
@@ -104,22 +102,23 @@ const HowWork = () => {
 
                                 <div className="content-main">
                                     <div className="content-icon content-icon3">
-                                        <FontAwesomeIcon
-                                            icon={faArrowDown}
-                                            style={{ fontSize: 30, color: 'white' }}
-                                        />
-                                        <FontAwesomeIcon
-                                            icon={faArrowUp}
-                                            style={{ fontSize: 30, color: 'white' }}
-                                        />
+                                        {/* <FontAwesomeIcon
+                      icon={faArrowDown}
+                      style={{ fontSize: 30, color: "white" }}
+                    />
+                    <FontAwesomeIcon
+                      icon={faArrowUp}
+                      style={{ fontSize: 30, color: "white" }}
+                    /> */}
+                                        <img src={DownloadIcon} alt="" />
+                                        <img className="upload-icon" src={DownloadIcon} alt="" />
                                     </div>
                                     <div className="content" style={{ fontWeight: 400 }}>
-                                        <p className="text-1 text-3">
+                                        <p className="text-3">
                                             <b>DOWNLOAD & UPLOAD TO AMAZON</b>
                                         </p>
                                         Once the bid adjustments are successfully applied, download
-                                        the modified Bulk File from ACoS.app, go to the Bulk
-                                        Operations Portal and upload the Bulk File.
+                                        the modified Bulk File from ACoS.app, go to the Bulk.
                                     </div>
                                 </div>
                             </li>

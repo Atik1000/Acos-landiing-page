@@ -86,7 +86,12 @@ p {
 }
 
 .content-icon2 {
-    background: #000;
+    background: #343a40;
+}
+
+.content-icon2 img,
+.upload-icon {
+    transform: rotate(540deg) !important;
 }
 
 .content-icon3 {
@@ -95,6 +100,14 @@ p {
 
 .content-icon i {
     font-size: 50px;
+}
+
+.text-1 {
+    color: #108ACC;
+}
+
+.text-2 {
+    color: #343a40;
 }
 
 .text-3 {

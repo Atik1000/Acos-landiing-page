@@ -1,8 +1,10 @@
-#pricing{
-    background: ghostwhite;
+#pricing {
+    background: #F8FAFF;
 }
+
 .no-credit {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: 400px;
 }
 
 .card {
@@ -10,31 +12,43 @@
 }
 
 hr {
-    width: 15%;
+    width: 36%;
+    margin-left: 32% !important;
 }
 
 .target {
-    font-size: 10px;
+    font-size: 13px;
+    color: gray;
 }
 
 .subscribtion-item {
-    padding: 60px;
-    background-color: aliceblue;
+    padding: 15px;
+    background-color: #EFF3FB;
 }
 
 .subscribtion-item li {
+    font-size: 18px;
     margin-bottom: 10px;
     list-style: none;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.bit-optimizer-text {
+    font-weight: 400;
+    list-style: none;
+    font-size: 18px;
 }
 
 .subscription-plan-area {
-    box-shadow: 2px 2px 26px 1px rgba(0, 0, 0, 0.03);
-    width: 90%;
-    margin-left: 20px;
-    padding: 15px;
+    width: 100%;
+    /* margin-left: 50px; */
+    padding: 4px;
+    background: white;
 }
-.icon{
-    color:blue !important;
+
+.icon {
+    color: #108acc !important;
     margin-right: 5px;
 }
 
@@ -43,8 +57,9 @@ hr {
 }
 
 .pricing {
-    width: 35%;
+    width: 45%;
 }
+
 @media screen and (max-width: 768px) {
     .pricing {
         width: 100%;

@@ -79,6 +79,16 @@ const UploadBulk = () => {
                     </button>
                 </div>
             </div>
+
+            <div
+                className="d-flex justify-content-center mt-4 pt-4 mb-6 pb-6"
+                style={{ marginBottom: '100px' }}>
+                <Link to="sign-up" type="button" className="btn btn-primary start-btn">
+                    FILE READY TO DOWNLOAD
+                </Link>
+            </div>
+
+            {/* <button className="btn btn-main">FILE READY TO DOWNLOAD</button> */}
         </div>
     );
 };
