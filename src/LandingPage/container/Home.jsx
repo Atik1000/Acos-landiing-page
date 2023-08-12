@@ -24,14 +24,14 @@ const Home = () => {
 
             <div className="text-center">
                 <img src={creditCard} alt="creditCard " className="creditCard" />
-                <span className="ml-2">No credit card required</span>
+                <span className="ml-2 pb-4 mb-4">No credit card required</span>
             </div>
             <div className="d-flex justify-content-center">
                 <img src={LaptopIcon} alt="laptop" className="laptop" />
             </div>
             <h5 className="text-center mt-5 h4">
                 Trusted by <span className="text-main">Amazon Sellers</span> and
-                <span className="text-main">PPC Managers</span> worldwide
+                <span className="text-main">  PPC Managers</span> worldwide
             </h5>
             <div className="d-flex justify-content-center mt-4 pt-4">
                 <img src={AmazonAds} alt="amazon" className="amazon" />

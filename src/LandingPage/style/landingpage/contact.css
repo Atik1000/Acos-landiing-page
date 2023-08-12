@@ -1,16 +1,19 @@
 .contact-area{
-        background: #f8f9fb !important;
+        background: #F8FAFF !important;
+       
 }
 .send-btn {
     height: 55px;
     width: 163px;
     font-weight: 400;
+    background-color: #108ACC;
     font-size: 20px;
 }
 
 .form-control{
     border: none;
     height: 50px;
+    font-size: 1.5rem !important;
 }
 #message{
     height: 200px;
