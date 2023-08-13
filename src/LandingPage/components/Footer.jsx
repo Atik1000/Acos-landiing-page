@@ -33,7 +33,7 @@ const Footer = () => {
                     <li>Conditions of use</li>
                     <li>Cookies</li>
                     <li>
-                      <Link to="/contact" style={{textDecoration:"none"}}>Contact</Link>
+                      <Link to="/contact" style={{textDecoration:"none",fontSize:"17px"}}>Contact</Link>
                     </li>
                   </ul>
                 </div>

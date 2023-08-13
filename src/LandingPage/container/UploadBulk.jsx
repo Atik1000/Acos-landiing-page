@@ -1,96 +1,104 @@
-import '../style/landingpage/uploadbulk.css';
+import React, { useState } from "react";
+import { FilePond } from "react-filepond";
+import "filepond/dist/filepond.min.css";
+import "filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css";
+import { Link } from "react-router-dom";
+import "../style/landingpage/uploadbulk.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileCirclePlus } from "@fortawesome/free-solid-svg-icons";
 
-import React, { useState } from 'react';
+function UploadBulk() {
+  const [files, setFiles] = useState([]);
 
-import { FileUploader } from 'react-drag-drop-files';
-import { Link } from 'react-router-dom';
-
-const fileTypes = ['JSON', 'Xlsx', 'csv', 'Pdf'];
-
-const UploadBulk = () => {
-    const [selectedFile, setSelectedFile] = useState(null);
-
-    const handleFileChange = (event) => {
-        setSelectedFile(event.target.files[0]);
-    };
-
-    const handleUpload = () => {
-        // Your code to handle the file upload goes here
-        console.log(selectedFile);
-    };
-
-    const [file, setFile] = useState(null);
-    const handleChange = (file) => {
-        setFile(file);
-    };
-    return (
-        <div className="container">
-            <div className="d-flex justify-content-center">
-                <h1 className="pb-4 mb-4">
-                    Upload your bulk files now
-                    <br />
-                    and start optimizing for free
-                </h1>
-            </div>
-
-            <div className="d-flex justify-content-center">
-                <h2>
-                    <Link className="mb-6 pb-4">How-to guide</Link>
-                </h2>
-            </div>
-
-            <div className="d-flex justify-content-center">
-                <div className="row">
-                    <div className="col">
-                        <div className="card shadow-sm rounded p-3 upload-card">
-                            <div className="p-10 bg-white">
-                                <p className="card h5 text-center d-flex">
-                                    Upload Bulk File 1 Yesterday
-                                </p>
-                                <div>
-                                    <FileUploader
-                                        className="dndStyle"
-                                        onChange={handleChange}
-                                        name="file"
-                                        types={fileTypes}></FileUploader>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col">
-                        <div className="card shadow-sm rounded p-3 upload-card">
-                            <div className="p-10 bg-white">
-                                <p className="card h5 text-center d-flex">
-                                    Upload Bulk File 2 60 days
-                                </p>
-                                <div>
-                                    {/* Move the title here */}
-                                    <FileUploader
-                                        className="dndStyle"
-                                        onChange={handleChange}
-                                        name="file"
-                                        types={fileTypes}></FileUploader>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-primary">
-                        File Ready To Download
-                    </button>
-                </div>
-            </div>
-
-            <div
-                className="d-flex justify-content-center mt-4 pt-4 mb-6 pb-6"
-                style={{ marginBottom: '100px' }}>
-                <Link to="sign-up" type="button" className="btn btn-primary start-btn">
-                    FILE READY TO DOWNLOAD
-                </Link>
-            </div>
-
-            {/* <button className="btn btn-main">FILE READY TO DOWNLOAD</button> */}
+  return (
+    <div className="container">
+      <h1
+        className="d-flex justify-content-center mb-2 pb-2"
+        style={{ fontWeight: "bold", fontSize: "60px" }}
+      >
+        Upload your bulk files now <br /> and start optimizing for free
+      </h1>
+      <p
+        className="d-flex justify-content-center"
+        state={{ fontSize: "35px", color: "#108ACC" }}
+      >
+        <Link
+          style={{ fontSize: "35px", fontWeight: "bold", color: "#108ACC" }}
+          className="pb-4 mb-4"
+        >
+          How-to guide
+        </Link>
+      </p>
+      <div className="row">
+        <div className="col">
+          <h4 className="text-center mb-4 pb-4">
+            Upload Bulk File 1{" "}
+            <span style={{ color: "#108ACC" }}>Yesterday</span>
+          </h4>{" "}
         </div>
-    );
-};
+        <div className="col">
+          <h4 className="text-center mb-4 pb-4">
+            Upload Bulk File 2 <span style={{ color: "#108ACC" }}>60 Days</span>
+          </h4>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+          <div className="yesterday">
+            <h1 className="text-center" style={{ fontSize: "40px" }}>
+              File 1
+            </h1>
+            <p className="text-center">Yesterday</p>
+            <FontAwesomeIcon icon={faFileCirclePlus}  style={{height:'50px'}}/>
+            <FilePond
+              files={files}
+              onupdatefiles={setFiles}
+              allowMultiple={true}
+              maxFiles={3}
+              server="/api"
+              name="files"
+              labelFileProcessing="Uploading..."
+              allowProcess={true}
+              allowRevert={true}
+              allowRemove={true}
+              labelIdle={
+                'Drag & Drop your files here or <span class="custom-label">choose file</span>'
+              }
+            />
+          </div>
+        </div>
+        <div className="col">
+          <div className="yesterday">
+            <h1 className="text-center" style={{ fontSize: "40px" }}>
+              File 2
+            </h1>
+            <p className="text-center">60 days</p>
+            <FilePond
+              files={files}
+              onupdatefiles={setFiles}
+              allowMultiple={true}
+              maxFiles={3}
+              server="/api"
+              name="files"
+              labelFileProcessing="Uploading..."
+              allowProcess={true}
+              allowRevert={true}
+              allowRemove={true}
+              labelIdle={
+                ("Yesterdays are",
+                'Drag & Drop your files or <span class="custom-label">Browse</span>')
+              }
+            />
+          </div>
+        </div>
+      </div>
+      <div className="d-flex justify-content-center mb-4 pb-4 mt-4 pt-4">
+        <Link className=" btn btn-primary start-btn">
+          FILE READY TO DOWNLOAD
+        </Link>
+      </div>
+    </div>
+  );
+}
 
 export default UploadBulk;

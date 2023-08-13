@@ -1,38 +1,16 @@
 h1 {
-    font-weight: bold;
-}
-
-.guZdik {
-    position: relative;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    min-width: 322px;
-    max-width: 508px;
-    height: 150px !important;
-    border: 1px dashed rgb(154, 158, 163) !important;
-    padding: 8px 16px 8px 8px;
-    border-radius: 8px;
-    background: #e8f3ff;
-    cursor: pointer;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
+  font-weight: bold;
 }
 
 .btn-primary {
-    background-color: #108ACC;
+  background-color: #108acc;
 }
 
-.bEmYHq {
-    position: relative;
-    display: flex;
-    align-items: center;
-    min-width: 322px;
-    max-width: 508px;
-    height: 48px;
-    border: none !important;
-    padding: 8px 16px 8px 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    flex-grow: 0;
+.yesterday {
+  border: 0.25px dotted #108acc;
+  border-radius: 25px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 85%;
+  background: #F1F6FE;
 }
