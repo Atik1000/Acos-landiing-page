@@ -12,8 +12,19 @@
 }
 
 hr {
-    width: 36%;
-    margin-left: 32% !important;
+    width: 48%;
+    margin-left: 26% !important;
+}
+
+.start-btn {
+    font-weight: 500 !important;
+}
+
+.keyword {
+    text-align: center;
+    color: rgb(150, 148, 148);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .target {
@@ -41,7 +52,6 @@ hr {
 }
 
 .subscription-plan-area {
-    width: 100%;
     /* margin-left: 50px; */
     padding: 4px;
     background: white;

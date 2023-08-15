@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 
 import { FileUploader } from 'react-drag-drop-files';
 import { Link } from 'react-router-dom';
+import fileIcon from '../icon/foldericon.webp';
 
 const fileTypes = ['JSON', 'Xlsx', 'csv', 'Pdf'];
 
@@ -35,48 +36,96 @@ const UploadBulk = () => {
 
             <div className="d-flex justify-content-center">
                 <h2>
-                    <Link className="mb-6 pb-4">How-to guide</Link>
+                    <Link className="mb-6 pb-4 how-to-guide">How-to guide</Link>
                 </h2>
             </div>
 
             <div className="d-flex justify-content-center">
                 <div className="row">
                     <div className="col">
-                        <div className="card shadow-sm rounded p-3 upload-card">
+                        <div className=" shadow-sm rounded p-3 upload-card">
                             <div className="p-10 bg-white">
-                                <p className="card h5 text-center d-flex">
-                                    Upload Bulk File 1 Yesterday
-                                </p>
-                                <div>
+                                <div className="p3">
+                                    <div className="  text-center h2 mb-4">
+                                        Upload Bulk File 1{' '}
+                                        <span className="text-primary">Yesterday</span>
+                                    </div>
                                     <FileUploader
                                         className="dndStyle"
                                         onChange={handleChange}
                                         name="file"
-                                        types={fileTypes}></FileUploader>
+                                        types={fileTypes}>
+                                        <div className="fileOne row  m-2">
+                                            <div className="col-md-4">
+                                                <div className="folderIcon">
+                                                    <img
+                                                        src={fileIcon}
+                                                        alt="fileIcon"
+                                                        className="fileIcon"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-8 mt-2">
+                                                <div className="file-title">FILE1 </div>
+                                                <div className="file-sub">YESTERDAY </div>
+                                            </div>
+                                            <div className="col-md-12 mt-3 mb-5">
+                                                <div className="drag-drop mb-4">
+                                                    Drag & drop your file here or{' '}
+                                                    <span className="text-primary">
+                                                        {' '}
+                                                        chose file
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </FileUploader>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card shadow-sm rounded p-3 upload-card">
+                        <div className=" shadow-sm rounded p-3 upload-card">
                             <div className="p-10 bg-white">
-                                <p className="card h5 text-center d-flex">
-                                    Upload Bulk File 2 60 days
-                                </p>
-                                <div>
-                                    {/* Move the title here */}
+                                <div className="p3">
+                                    <div className="  text-center h2 mb-4">
+                                        Upload Bulk File 2{' '}
+                                        <span className="text-primary">60 Days</span>
+                                    </div>
                                     <FileUploader
                                         className="dndStyle"
                                         onChange={handleChange}
                                         name="file"
-                                        types={fileTypes}></FileUploader>
+                                        types={fileTypes}>
+                                        <div className="fileOne row  m-2">
+                                            <div className="col-md-4">
+                                                <div className="folderIcon">
+                                                    <img
+                                                        src={fileIcon}
+                                                        alt="fileIcon"
+                                                        className="fileIcon"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="col-md-8 mt-2">
+                                                <div className="file-title">FILE 2 </div>
+                                                <div className="file-sub">60 DAYS </div>
+                                            </div>
+                                            <div className="col-md-12 mt-3 mb-5">
+                                                <div className="drag-drop mb-4">
+                                                    Drag & drop your file here or{' '}
+                                                    <span className="text-primary">
+                                                        {' '}
+                                                        chose file
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </FileUploader>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button type="button" class="btn btn-primary">
-                        File Ready To Download
-                    </button>
                 </div>
             </div>
 

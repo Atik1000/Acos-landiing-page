@@ -2,6 +2,45 @@ h1 {
     font-weight: bold;
 }
 
+.how-to-guide {
+    font-weight: 500 !important;
+}
+
+.file-title {
+    font-size: 71px;
+    font-family: revert;
+    color: #cbcbcb;
+    font-weight: 900;
+}
+
+.drag-drop {
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 84px;
+}
+
+.file-sub {
+    font-size: 60px;
+    font-family: revert;
+    color: #cbcbcb;
+    margin-top: -50px;
+    font-weight: 700;
+}
+
+.folderIcon {
+    padding: 53px;
+    background: #e6edff;
+    border-radius: 53%;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.fileOne {
+    border: 1px dashed rgb(154, 158, 163) !important;
+    background: #F1F6FE;
+    border-radius: 8px;
+}
+
 .guZdik {
     position: relative;
     display: flex;
@@ -10,13 +49,17 @@ h1 {
     min-width: 322px;
     max-width: 508px;
     height: 150px !important;
-    border: 1px dashed rgb(154, 158, 163) !important;
+    border: none !important;
     padding: 8px 16px 8px 8px;
     border-radius: 8px;
-    background: #e8f3ff;
+    background: none;
     cursor: pointer;
     -webkit-box-flex: 0;
     flex-grow: 0;
+}
+
+.jWkLDY {
+    display: none !important;
 }
 
 .btn-primary {

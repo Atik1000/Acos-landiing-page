@@ -25,25 +25,26 @@ const Pricing = () => {
                 </p>
                 <div className="col d-flex justify-content-center">
                     <div className=" subscription-plan-area row">
-                        <div className="col-md-3">
+                        <div className="col-md-2">
                             <img src={NoBsPricing} alt="NoBsPricing" className="NoBsPricing" />
                         </div>
-                        <div className="col-md-9">
+                        <div className="col-md-8">
                             <h2 class="text-center subscription" style={{ fontSize: 60 }}>
                                 $0.01
                             </h2>
                             {/* <div className="d-flex justify-content-center"></div> */}
                             <hr />
-                            <p className="text-center target">per Keyword or Target</p>
+                            <div className="text-center  keyword mb-2 ">per Keyword or Target</div>
                             <div className="col d-flex justify-content-center">
                                 <Link className="btn btn-primary start-btn" to="/upload-file">
                                     Start with 1000 free tokens
                                 </Link>
                             </div>
-                            <p className="text-center target mt-2">
+                            <p className="text-center target mt-2 keyword">
                                 Good to Optimize 1000 Keywords or Targets
                             </p>
                         </div>
+                        <div className="col-md-2"></div>
                     </div>
                 </div>
                 <div className="col d-flex justify-content-center">
