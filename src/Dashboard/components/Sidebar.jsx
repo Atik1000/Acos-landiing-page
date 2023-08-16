@@ -7,6 +7,8 @@ import {
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ApexChart from "./Chart";
+import ProgressChart from "./Progressbar";
 
 const Sidebar = () => {
   const [isFirstToggleOn, setIsFirstToggleOn] = useState(false);
@@ -90,6 +92,14 @@ const Sidebar = () => {
         </div>
         <div className="col-md-9 pl-0">
           <span className="text-lg how-to-guide">Log</span>
+        </div>
+        <div className="row">
+          <div className="col-md-6">
+            <ApexChart />
+          </div>
+          <div className="col-md-6">
+            <ProgressChart />
+          </div>
         </div>
       </div>
     </div>

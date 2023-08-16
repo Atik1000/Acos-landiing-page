@@ -12,7 +12,7 @@ const AdminLayout = ({ children }) => {
                 <div className="row" style={{ height: '100%' }}>
                     <div className="dashboard-layout">
                         <Sidebar />
-                        <main className="col-md-7 ms-sm-auto col-lg-7" style={{ padding: '20px' }}>
+                        <main className="col-md-6 ms-sm-auto col-lg-6" style={{ padding: '20px' }}>
                             {children}
                         </main>
                     </div>

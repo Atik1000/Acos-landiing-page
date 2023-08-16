@@ -62,7 +62,7 @@ const NavbarComponent = () => {
                 width={28}
               />
               <Link
-                class="nav-link text-black"
+                class="nav-link text-black day-int"
                 href="#"
                 style={{ fontWeight: "bold !important" }}
               >

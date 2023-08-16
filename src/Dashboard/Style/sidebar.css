@@ -52,7 +52,7 @@ input:checked + .slider {
 }
  */
  .slider{
-    border-radius: 50% !important;
+    border-radius: 20px !important;
  }
 
 input:checked + .slider:before {
@@ -60,12 +60,12 @@ input:checked + .slider:before {
 } 
 
 .blue{
-    background-color: blue;
-    border-radius: 50% !important;
+    background-color: #108ACC;
+    border-radius: 20px !important;
 }
 .red{
     background-color: red;
-    border-radius: 50% !important;
+    border-radius: 20px !important;
 }
 
 /* Rounded sliders */
@@ -75,5 +75,5 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 20px;
 }
