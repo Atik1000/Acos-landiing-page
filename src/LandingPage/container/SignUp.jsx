@@ -7,6 +7,7 @@ import googleIcon from '../icon/googleIcon.webp';
 
 const SignUp = () => {
     return (
+        <div className="signup">
         <div className="container mb-5">
             <div className="d-flex justify-content-center">
                 <ACOSICOn className="icon-signup" style={{ height: 50 }} />
@@ -27,7 +28,8 @@ const SignUp = () => {
                     By signing up you agree to <Link href="">Terms and Conditions</Link>{' '}
                 </div>
             </div>
-        </div>
+            </div>
+            </div>
     );
 };
 

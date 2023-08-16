@@ -4,12 +4,14 @@ h1 {
 
 .how-to-guide {
     font-weight: 500 !important;
+    font-size: 40px !important;
+    color: #108ACC;
 }
 
 .file-title {
     font-size: 71px;
     font-family: revert;
-    color: #cbcbcb;
+    color: #F8FAFF;
     font-weight: 900;
 }
 
@@ -18,11 +20,13 @@ h1 {
     font-weight: 400;
     margin-left: 84px;
 }
-
+.shadow-sm {
+    box-shadow: none !important;
+}
 .file-sub {
     font-size: 60px;
     font-family: revert;
-    color: #cbcbcb;
+    color: #F8FAFF;
     margin-top: -50px;
     font-weight: 700;
 }
@@ -36,9 +40,9 @@ h1 {
 }
 
 .fileOne {
-    border: 1px dashed rgb(154, 158, 163) !important;
+    border: 1px dashed  #108ACC!important;
     background: #F1F6FE;
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .guZdik {
