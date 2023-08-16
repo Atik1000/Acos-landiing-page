@@ -9,16 +9,7 @@ import fileIcon from "../icon/foldericon.webp";
 const fileTypes = ["JSON", "Xlsx", "csv", "Pdf"];
 
 const UploadBulk = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
-
-  const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-  };
-
-  const handleUpload = () => {
-    // Your code to handle the file upload goes here
-    console.log(selectedFile);
-  };
+  const showButtonAndText = true;
 
   const [file, setFile] = useState(null);
   const handleChange = (file) => {
@@ -26,13 +17,15 @@ const UploadBulk = () => {
   };
   return (
     <div className="container">
-      <div className="d-flex justify-content-center">
-        <h1 className="pb-4 mb-4" style={{ fontSize: "70px" }}>
-          Upload your bulk files now
-          <br />
-          and start optimizing for free
-        </h1>
-      </div>
+      {showButtonAndText && (
+        <div className="d-flex justify-content-center">
+          <h1 className="pb-4 mb-4" style={{ fontSize: "70px" }}>
+            Upload your bulk files now
+            <br />
+            and start optimizing for free
+          </h1>
+        </div>
+      )}
 
       <div className="d-flex justify-content-center">
         <h2>
@@ -129,12 +122,21 @@ const UploadBulk = () => {
         className="d-flex justify-content-center mt-4 pt-4 mb-6 pb-6"
         style={{ marginBottom: "100px" }}
       >
-        <Link to="sign-up" type="button" className="btn btn-primary start-btn">
-          FILE READY TO DOWNLOAD
-        </Link>
+        {showButtonAndText && (
+          <div
+            className="d-flex justify-content-center mt-4 pt-4 mb-6 pb-6"
+            style={{ marginBottom: "100px" }}
+          >
+            <Link
+              to="sign-up"
+              type="button"
+              className="btn btn-primary start-btn"
+            >
+              FILE READY TO DOWNLOAD
+            </Link>
+          </div>
+        )}
       </div>
-
-      {/* <button className="btn btn-main">FILE READY TO DOWNLOAD</button> */}
     </div>
   );
 };
