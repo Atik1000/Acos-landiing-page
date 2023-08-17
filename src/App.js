@@ -12,6 +12,7 @@ import UploadBulk from "./LandingPage/container/UploadBulk";
 import NotFound from "./LandingPage/container/notfound";
 // import { HomePage } from './LandingPage/pages/HomePage';
 import LandingHome from "./LandingPage/components/LandingHome";
+import Logs from "./Dashboard/container/Logs";
 
 const App = () => {
   return (
@@ -67,7 +68,8 @@ const App = () => {
             </Layout>
           }
         />
-        <Route path="/admin" element={<Dashboard />} />
+        <Route path="/dashbord" element={<Dashboard />} />
+        <Route path="dashbord/logs" element={<Logs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       {/* </Layout> */}

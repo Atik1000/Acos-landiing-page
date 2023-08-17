@@ -9,6 +9,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ApexChart from "./Chart";
 import ProgressChart from "./Progressbar";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [isFirstToggleOn, setIsFirstToggleOn] = useState(false);
@@ -91,7 +92,9 @@ const Sidebar = () => {
           />
         </div>
         <div className="col-md-9 pl-0">
-          <span className="text-lg how-to-guide">Log</span>
+          <span className="text-lg how-to-guide">
+            <Link to="logs">Logs</Link>
+          </span>
         </div>
         <div className="row">
           <div className="col-md-6">

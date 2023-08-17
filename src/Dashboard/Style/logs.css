@@ -1,0 +1,28 @@
+.dual-list {
+  list-style: none;
+  padding: 0;
+  overflow: hidden; /* Clear the floats */
+}
+
+.left {
+  float: left; /* Float this li element to the left */
+}
+
+.right {
+  float: right; /* Float this li element to the right */
+}
+
+.custom-header {
+  background-color: #108acc !important;
+  color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+.custom-content {
+  font-weight: normal !important;
+  text-align: center;
+}
+.file{
+    color: #108acc !important;
+}
