@@ -11,10 +11,14 @@ const AdminLayout = ({ children }) => {
             <div className="container-fluid" style={{ height: '100%' }}>
                 <div className="row" style={{ height: '100%' }}>
                     <div className="dashboard-layout">
-                        <Sidebar />
-                        <main className="col-md-6 ms-sm-auto col-lg-6" style={{ padding: '20px' }}>
-                            {children}
-                        </main>
+                        <div className="col-md-4">
+                            <Sidebar />
+                        </div>
+                        <div className="col-md-8">
+                            <main className="" style={{ paddingTop: '25px' }}>
+                                {children}
+                            </main>
+                        </div>
                     </div>
                 </div>
             </div>
