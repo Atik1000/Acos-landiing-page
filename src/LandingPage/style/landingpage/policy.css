@@ -1,17 +1,17 @@
-p{
-    font-weight: 400 !important;
-    margin-bottom: 35px !important;
-    font-size: 22px !important;
+p {
+  font-weight: 400 !important;
+  margin-bottom: 35px !important;
+  font-size: 22px !important;
 }
-h1{
-    font-size: 75px !important;
-    margin-bottom: 60px !important;
+h1 {
+  font-size: 75px !important;
+  margin-bottom: 60px !important;
 }
-h6{
-    font-size: 30px !important;
-    margin-bottom: 70px !important;
+h6 {
+  font-size: 30px !important;
+  margin-bottom: 70px !important;
 }
-a{
-    /* color:  #108ACC !important; */
-    font-weight: 500!important;
+a {
+  font-weight: 500 !important;
+  color: #108acc;
 }

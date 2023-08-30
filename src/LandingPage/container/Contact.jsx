@@ -8,16 +8,20 @@ const Contact = () => {
     <div className="contact-area">
       <div className="container">
         <div className="row">
-          <div style={{width:"70%",marginLeft:"20%"}}>   
+          <div style={{ width: "70%", marginLeft: "20%" }}>
             <div className="d-flex justify-content-center">
               <ACOSICOn style={{ height: 25 }} />
             </div>
             <div className="d-flex justify-content-center mt-4 pt-4 mb-4 pb-4">
-              <h1 className="h1" style={{fontSize:"50px"}}>Contact us</h1>
+              <h1 className="h1" style={{ fontSize: "50px" }}>
+                Contact us
+              </h1>
               <br />
             </div>
             <div className="d-flex justify-content-center mb-2 pb-2">
-              <p style={{fontSize:"25px",fontWeight:"normal"}}>Send your questions, suggestions, or feedback.</p>
+              <p style={{ fontSize: "25px", fontWeight: "normal" }}>
+                Send your questions, suggestions, or feedback.
+              </p>
             </div>
             <form>
               <div className="form-group">
@@ -45,7 +49,15 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="d-flex justify-content-center mt-2 pt-3">
-                <button type="submit" className="btn btn-primary send-btn">
+                <button
+                  type="submit"
+                  className="btn btn-primary send-btn"
+                  style={{
+                    fontWeight: 400,
+                    backgroundColor: "#108ACC",
+                    fontSize: 20,
+                  }}
+                >
                   Send message
                 </button>
               </div>

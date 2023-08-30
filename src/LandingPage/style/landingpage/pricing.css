@@ -1,77 +1,76 @@
 #pricing {
-    background: #F8FAFF;
+  background: #f8faff;
 }
 
 .no-credit {
-    font-size: 15px;
-    font-weight: 400px;
+  font-size: 15px;
+  font-weight: 400px;
 }
 
 .card {
-    width: 100%;
+  width: 100%;
 }
 
 hr {
-    width: 48%;
-    margin-left: 26% !important;
+  width: 48%;
+  margin-left: 26% !important;
 }
 
 .start-btn {
-    font-weight: 500 !important;
+  font-weight: 500 !important;
 }
 
 .keyword {
-    text-align: center;
-    color: rgb(150, 148, 148);
-    font-size: 15px;
-    font-weight: 400;
+  text-align: center;
+  color: rgb(150, 148, 148);
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .target {
-    font-size: 13px;
-    color: gray;
+  font-size: 13px;
+  color: gray;
 }
 
 .subscribtion-item {
-    padding: 15px;
-    background-color: #EFF3FB;
+  padding: 15px;
+  background-color: #eff3fb;
 }
 
 .subscribtion-item li {
-    font-size: 18px;
-    margin-bottom: 10px;
-    list-style: none;
-    padding-bottom: 10px;
-    font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  list-style: none;
+  padding-bottom: 10px;
+  font-weight: 700;
 }
 
 .bit-optimizer-text {
-    font-weight: 400;
-    list-style: none;
-    font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+  font-size: 18px;
 }
 
 .subscription-plan-area {
-    /* margin-left: 50px; */
-    padding: 4px;
-    background: white;
+  padding: 4px;
+  background: white;
 }
 
 .icon {
-    color: #108acc !important;
-    margin-right: 5px;
+  color: #108acc !important;
+  margin-right: 5px;
 }
 
 .NoBsPricing {
-    height: 100px;
+  height: 100px;
 }
 
 .pricing {
-    width: 45%;
+  width: 45%;
 }
 
 @media screen and (max-width: 768px) {
-    .pricing {
-        width: 100%;
-    }
+  .pricing {
+    width: 100%;
+  }
 }
