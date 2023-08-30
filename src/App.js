@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard/index";
+
 import Layout from "./LandingPage/components/Layout";
 import Contact from "./LandingPage/container/Contact";
 import FAQ from "./LandingPage/container/Faq";
@@ -8,15 +8,22 @@ import HowWork from "./LandingPage/container/HowWork";
 import Pricing from "./LandingPage/container/Pricing";
 import SignUp from "./LandingPage/container/SignUp";
 import UploadBulk from "./LandingPage/container/UploadBulk";
-import NotFound from "./LandingPage/container/notfound";
 import LandingHome from "./LandingPage/components/LandingHome";
+// Dashboard
+import Dashboard from "./Dashboard/index";
 import Logs from "./Dashboard/container/Logs";
+// Not Found
+import NotFound from "./LandingPage/container/notfound";
 // Policy
 import HowToguide from "./LandingPage/policy/HowToguide";
 import PrivacyPoliicy from "./LandingPage/policy/PrivacyPoliicy";
 import OrderCancell from "./LandingPage/policy/OrderCancell";
 import CookiePolicy from "./LandingPage/policy/CookiePolicy";
 import RetentionPolicy from "./LandingPage/policy/retentionPolicy";
+// Guide
+import Guide from "./LandingPage/HowGuide/Guide";
+import ModesAndTemplates from "./LandingPage/HowGuide/ModesAndTemplates";
+import Rule from "./LandingPage/HowGuide/Rule";
 
 const App = () => {
   return (
@@ -73,7 +80,7 @@ const App = () => {
           }
         />
         <Route
-          path="/how-to-guide"
+          path="/guide-policy"
           element={
             <Layout>
               <HowToguide />
@@ -113,10 +120,26 @@ const App = () => {
           }
         />
         <Route
-          path="/cookie-policy"
+          path="/guide"
           element={
             <Layout>
-              <CookiePolicy />
+              <Guide />
+            </Layout>
+          }
+        />
+        <Route
+          path="/module-and-templates"
+          element={
+            <Layout>
+              <ModesAndTemplates />
+            </Layout>
+          }
+        />
+        <Route
+          path="/rule"
+          element={
+            <Layout>
+              <Rule />
             </Layout>
           }
         />
