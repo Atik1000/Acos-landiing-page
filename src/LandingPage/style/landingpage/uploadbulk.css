@@ -10,14 +10,14 @@ h1 {
 
 .how-to-guide-admin {
     font-weight: 400 !important;
-    font-size: 25px !important;
+    font-size: 35px !important;
     color: #6c757d;
 }
 
 .file-title {
     font-size: 71px;
     font-family: revert;
-    color: #F8FAFF;
+    color: #6c757d40;
     font-weight: 900;
 }
 
@@ -34,13 +34,29 @@ h1 {
 .file-sub {
     font-size: 60px;
     font-family: revert;
-    color: #F8FAFF;
+    color: #6c757d40;
     margin-top: -50px;
+    font-weight: 700;
+}
+
+.file-sub-admin {
+    font-size: 38px;
+    font-family: revert;
+    color: #6c757d40;
+    margin-top: -38px;
     font-weight: 700;
 }
 
 .folderIcon {
     padding: 53px;
+    background: #e6edff;
+    border-radius: 53%;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.folderIconAdmin {
+    padding: 16%;
     background: #e6edff;
     border-radius: 53%;
     margin-top: 17px;

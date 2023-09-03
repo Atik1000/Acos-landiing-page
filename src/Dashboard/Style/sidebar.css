@@ -10,6 +10,14 @@
     font-weight: 300 !important;
 }
 
+.btn-drp {
+    width: 100%;
+}
+
+.logs {
+    text-decoration: none;
+}
+
 .mode {
     font-weight: 300 !important;
     font-size: 18px;

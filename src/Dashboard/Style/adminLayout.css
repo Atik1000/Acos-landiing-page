@@ -1,40 +1,42 @@
 .dashboard-layout {
-  display: flex;
-  height: 100%;
-  width: 100%;
-
-  font-family: monospace;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #f1f5ff7a;
+    font-family: monospace;
 }
 
 .day-int {
-  font-size: 35px;
-  font-family: monospace;
+    font-size: 35px;
+    font-family: monospace;
 }
 
 .day {
-  font-size: 20px;
-  font-weight: 400 !important;
+    font-size: 20px;
+    font-weight: 400 !important;
 }
 
 .progressbar {
-  width: 32%;
+    width: 32%;
 }
 
 .free {
-  background: #108acc;
-  color: white;
-  font-size: 20px;
-  padding: 3px;
-  font-weight: 400 !important;
-  border-radius: 5px;
+    background: #108acc;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: 400 !important;
+    border-radius: 5px;
 }
 
 ul li {
-  margin-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
+
 .nav-link {
-  font-size: 35px;
+    font-size: 35px;
 }
+
 .pg-bar span {
-  color: #108acc !important;
+    color: #108acc !important;
 }
