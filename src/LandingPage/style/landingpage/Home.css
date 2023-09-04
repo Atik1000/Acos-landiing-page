@@ -1,48 +1,48 @@
 .text-main {
-    color: #108ACC;
+  color: #108acc;
 }
 
 h2 {
-    font-weight: 500;
-    font-size: 50px;
+  font-weight: 500;
+  font-size: 50px;
 }
 
 h4 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 h5 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-.start-btn {
-    font-weight: 700;
-    padding: 13px 28px;
-    font-size: 20px;
-    border-radius: 15px;
-    background-color: #108ACC;
-    color: white;
+.start-free-btn {
+  font-weight: 700;
+  padding: 13px 28px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: #108acc;
+  color: white;
 }
 
 .start-btn :hover {
-    background-color: black;
+  background-color: black;
 }
 
 p {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .laptop {
-    height: 300px;
-    width: 450px;
+  height: 300px;
+  width: 450px;
 }
 
 .amazon {
-    height: 12%;
-    width: 15%;
+  height: 12%;
+  width: 15%;
 }
 
 .creditCard {
-    width: 25px;
+  width: 25px;
 }

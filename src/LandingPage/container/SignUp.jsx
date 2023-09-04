@@ -18,14 +18,18 @@ const SignUp = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center button-contenct">
-          <button className="btn btn-sm btn-primary mb-3  sign-up-btn">
+          <button
+            className="btn btn-sm btn-primary mb-3  sign-up-btn"
+            style={{ fontSize: "30px", backgroundColor: "#108ACC" }}
+          >
             <img src={googleIcon} alt="google-icon" className="google-icon " />
             Continue with Google
           </button>
         </div>
         <div className="d-flex justify-content-center">
           <div className="login-bottom-title">
-            By signing up you agree to <Link href="">Terms and Conditions</Link>{" "}
+            By signing up you agree to{" "}
+            <Link style={{ color: "#108ACC" }}>Terms and Conditions</Link>{" "}
           </div>
         </div>
       </div>

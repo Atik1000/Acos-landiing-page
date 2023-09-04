@@ -131,6 +131,15 @@ const UploadBulk = () => {
               to="sign-up"
               type="button"
               className="btn btn-primary start-btn"
+              style={{
+                fontWeight: 700,
+                padding: "13px 28px",
+                fontSize: 20,
+                borderRadius: 10,
+                backgroundColor: "#108acc",
+                color: "white",
+                textDecoration: "none",
+              }}
             >
               FILE READY TO DOWNLOAD
             </Link>
