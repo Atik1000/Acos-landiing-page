@@ -36,8 +36,8 @@ const DashbordHome = () => {
                 <div className="d-flex justify-content-center">
                     <div className="row">
                         <div className="col">
-                            <div className=" shadow-sm   upload-card">
-                                <div className=" bg-white rounded">
+                            <div className="upload-card">
+                                <div className=" bg-white">
                                     <div className="p-3">
                                         <div className="  text-center h3 mb-4">
                                             Upload Bulk File 1{' '}
@@ -91,8 +91,8 @@ const DashbordHome = () => {
                             </div>
                         </div>
                         <div className="col">
-                            <div className=" shadow-sm  upload-card">
-                                <div className=" bg-white rounded">
+                            <div className="upload-card">
+                                <div className=" bg-white">
                                     <div className="p-3">
                                         <div className="  text-center h3 mb-4">
                                             Upload Bulk File 2{' '}

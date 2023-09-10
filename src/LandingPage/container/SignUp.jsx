@@ -18,13 +18,14 @@ const SignUp = () => {
           </div>
         </div>
         <div className="d-flex justify-content-center button-contenct">
-          <button
+          <Link
+            to="/dashbord"
             className="btn btn-sm btn-primary mb-3  sign-up-btn"
             style={{ fontSize: "30px", backgroundColor: "#108ACC" }}
           >
             <img src={googleIcon} alt="google-icon" className="google-icon " />
             Continue with Google
-          </button>
+          </Link>
         </div>
         <div className="d-flex justify-content-center">
           <div className="login-bottom-title">

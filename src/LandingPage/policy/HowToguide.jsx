@@ -15,10 +15,11 @@ const HowToguide = () => {
       <p>Privacy and Data Retention</p>
       <p>
         Your use of the Services is also subject to our{" "}
-        <Link>Privacy Policy</Link> , which explains how we collect, use, and
-        protect your personal information. By using our Services, you consent to
-        the collection, processing, and retention of your data as described in
-        our Privacy Policy and <Link>Data Retention Policy</Link>.
+        <Link to="/privacy-policy">Privacy Policy</Link> , which explains how we
+        collect, use, and protect your personal information. By using our
+        Services, you consent to the collection, processing, and retention of
+        your data as described in our Privacy Policy and{" "}
+        <Link to="/retentional-policy">Data Retention Policy</Link>.
       </p>
       <p>Data Security</p>
       <p>
@@ -33,15 +34,18 @@ const HowToguide = () => {
         Our Services may use cookies and similar technologies to enhance your
         browsing experience and personalize content. By using our Services, you
         consent to the use of cookies in accordance with our{" "}
-        <Link>Cookie Policy</Link>. You can manage your cookie preferences
-        through your browser settings.
+        <Link to="/cookie-policy">Cookie Policy</Link>. You can manage your
+        cookie preferences through your browser settings.
       </p>
       <p>Order Cancellation and Refund Policy</p>
       <p>
         If you wish to cancel an order, please contact our customer support team
         as soon as possible. We will make every effort to accommodate your
         request, adhering to the{" "}
-        <Link>Order Cancellation and Refund Policy</Link>.
+        <Link to="/order-cancellation">
+          Order Cancellation and Refund Policy
+        </Link>
+        .
       </p>
       <p>Electronic Communications</p>
       <p>

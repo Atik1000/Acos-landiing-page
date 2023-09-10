@@ -79,14 +79,7 @@ const App = () => {
             </Layout>
           }
         />
-        <Route
-          path="/guide-policy"
-          element={
-            <Layout>
-              <HowToguide />
-            </Layout>
-          }
-        />
+
         <Route
           path="/privacy-policy"
           element={
@@ -140,6 +133,14 @@ const App = () => {
           element={
             <Layout>
               <Rule />
+            </Layout>
+          }
+        />
+        <Route
+          path="/guide-policy"
+          element={
+            <Layout>
+              <HowToguide />
             </Layout>
           }
         />

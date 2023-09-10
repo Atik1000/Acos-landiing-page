@@ -32,7 +32,7 @@ const HowWork = () => {
         <div className="row mt-4 pt-4">
           <div className="col-5">
             <h5 className="pb-4">How Does it Work?</h5>
-            <p className="pb-4 mb-4" style={{ fontWeight: 400 }}>
+            <p className="pb-4 mb-4" style={{ fontWeight: 400,width:"470px" }}>
               Using a robust bid management system, ACoS.app analyzes historical
               campaign data from <b>Bulk Files</b> to identify underperforming
               keywords and targets and make the appropriate bid adjustments.

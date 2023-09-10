@@ -9,7 +9,7 @@ import creditCard from "../icon/creditCard.webp";
 const Home = () => {
   return (
     <div className="container home">
-      <h2 className="text-center mt-4 pb-4">
+      <h2 className="text-center mt-4 pb-4" style={{fontSize:"50px"}}>
         Optimize your <span className="text-main">Amazon PPC</span>
         <br />
         bids with a few simple clicks

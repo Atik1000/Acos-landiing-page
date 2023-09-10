@@ -6,7 +6,7 @@ import '../style/landingpage/Header.css';
 const Header = () => {
   return (
     <div className='container'>
-      <nav className='navbar navbar-expand-lg navbar-light bg-light'>
+      <nav className='navbar navbar-expand-lg navbar-light'>
         <button
           className='navbar-toggler'
           type='button'

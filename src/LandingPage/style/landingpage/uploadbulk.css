@@ -17,8 +17,9 @@ h1 {
 .file-title {
     font-size: 71px;
     font-family: revert;
-    color: #6c757d40;
+    color: #108ACC;
     font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .drag-drop {
@@ -34,7 +35,7 @@ h1 {
 .file-sub {
     font-size: 60px;
     font-family: revert;
-    color: #6c757d40;
+    color: #108ACC;
     margin-top: -50px;
     font-weight: 700;
 }
@@ -106,4 +107,57 @@ h1 {
     border-radius: 5px;
     cursor: pointer;
     flex-grow: 0;
+}
+
+
+
+/* Add this CSS at the end of your CSS file or in a separate CSS file for better organization */
+
+/* Media query for tablet screens (adjust the max-width as needed) */
+@media screen and (max-width: 768px) {
+  /* Adjust font sizes and padding for smaller screens */
+  h1 {
+    font-size: 40px;
+  }
+
+  .how-to-guide {
+    font-size: 30px !important;
+  }
+
+  .file-title {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .file-sub {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .drag-drop {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .folderIcon {
+    padding: 40px;
+  }
+
+  .fileOne {
+    border-radius: 10px;
+  }
+
+  .btn-primary {
+    font-size: 18px;
+  }
+}
+
+/* Additional styling for smaller screens if needed */
+
+/* Example: Hide the "How-to guide" link on smaller screens */
+@media screen and (max-width: 576px) {
+  .how-to-guide {
+    display: none !important;
+  }
 }

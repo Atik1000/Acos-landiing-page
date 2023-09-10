@@ -41,3 +41,15 @@
 .man {
   height: 60px;
 }
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .box {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+    
+      .box p {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+
+}

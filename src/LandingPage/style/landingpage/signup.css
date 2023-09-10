@@ -1,5 +1,7 @@
 .signup{
     background-color: #F8FAFF;
+    height: 100% !important;
+    padding-bottom: 350px !important;
 }
 .icon-signup {
     margin-top: 60px !important;

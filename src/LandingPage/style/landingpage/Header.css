@@ -6,3 +6,7 @@
     font-size: 20px !important;
 
 }
+li a:hover {
+   
+    color: #108acc !important;
+}

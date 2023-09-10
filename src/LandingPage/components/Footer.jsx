@@ -14,7 +14,10 @@ const Footer = () => {
             <div className="col-md-7">
               <div className="row">
                 <div className="col">
-                  <ACOSICOn2 style={{ height: 25 }} />
+                  <Link to='/'>
+                    {" "}
+                    <ACOSICOn2 style={{ height: 25 }} />
+                  </Link>
 
                   <li className="mt-4 pt-4" style={{ listStyle: "none" }}>
                     <small>&copy; 2023 ACoS.app</small>

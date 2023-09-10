@@ -47,6 +47,16 @@ const FAQ = () => {
       answer:
         "ACoS.app is designed to handle PPC accounts with campaigns and Bulk Files of all sizes",
     },
+    {
+      question: "Is it suitable for small and large-scale PPC accounts",
+      answer:
+        "ACoS.app is designed to handle PPC accounts with campaigns and Bulk Files of all sizes",
+    },
+    {
+      question: "Is ACoS.app suitable for beginners or experts",
+      answer:
+        "Regardless of the level of expertise in Amazon PPC, ACoS.app is designed to ensure that anyone can navigate and utilize it effectively.",
+    },
   ];
 
   const [isCollapsed, setIsCollapsed] = useState(
@@ -85,9 +95,9 @@ const FAQ = () => {
             >
               <div className="card-header" id={`heading${index}`}>
                 <h5 className="mb-0">
-                  <p className="btn mb-0" onClick={() => toggleCollapse(index)}>
+                  <button className="btn mb-0" onClick={() => toggleCollapse(index)}>
                     {item.question}
-                  </p>
+                  </button>
                 </h5>
                 <FontAwesomeIcon icon={isCollapsed[index] ? faPlus : faMinus} />
               </div>
@@ -118,7 +128,8 @@ const FAQ = () => {
                 <i>
                   I've been using ACoS.app for a few months now, and it has
                   transformed my advertising game. It has helped me eliminate
-                  wasted ad spend, ultimately lowering my ACOS. It's a simple, but brilliant tool.
+                  wasted ad spend, ultimately lowering my ACOS. It's a simple,
+                  but brilliant tool.
                 </i>
               </p>
 
@@ -143,14 +154,14 @@ const FAQ = () => {
           <div class="col">
             <div className="box">
               <h4>
-                <b>A must-have for any Amazon seller</b>
+                <b>A for any Amazon seller</b>
               </h4>
               <p>
                 <i>
                   I've tried various tools to optimize my Amazon ads, but this
                   web app takes the cake. It helped me cut down on unnecessary
-                  spending, and my ACOS has dropped significantly. It's a
-                  must-have for any Amazon seller.
+                  spending, and my ACOS has significantly. It's a must-have for
+                  any Amazon .
                 </i>
               </p>
 
