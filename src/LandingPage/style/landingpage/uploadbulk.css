@@ -69,7 +69,9 @@ h1 {
     background: #F1F6FE;
     border-radius: 15px;
 }
-
+.file-sub-admin{
+  color: #108ACC !important;
+}
 .guZdik {
     position: relative;
     display: flex;
