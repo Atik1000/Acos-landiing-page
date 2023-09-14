@@ -9,7 +9,7 @@ import creditCard from "../icon/creditCard.webp";
 const Home = () => {
   return (
     <div className="container home">
-      <h2 className="text-center mt-4 pb-4" style={{fontSize:"50px"}}>
+      <h2 className="text-center mt-4 pb-4" style={{ fontSize: "50px" }}>
         Optimize your <span className="text-main">Amazon PPC</span>
         <br />
         bids with a few simple clicks
@@ -19,16 +19,20 @@ const Home = () => {
       <div class="col-md-12 text-center pb-1">
         <Link
           to="sign-up"
-          className="btn btn-primary "
+          className="btn btn-primary"
           style={{
-            fontWeight: 700,
+            fontWeight: "700 !important",
             padding: "13px 28px",
             fontSize: 20,
             borderRadius: 10,
             backgroundColor: "#108acc",
             color: "white",
             textDecoration: "none",
+            transition: "background-color 0.3s ease", // Add transition property
           }}
+          // Add hover styles
+          onMouseEnter={(e) => (e.target.style.backgroundColor = "#0e79b2")}
+          onMouseLeave={(e) => (e.target.style.backgroundColor = "#108acc")}
         >
           Start optimizing for free
         </Link>

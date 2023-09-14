@@ -24,6 +24,7 @@ import RetentionPolicy from "./LandingPage/policy/retentionPolicy";
 import Guide from "./LandingPage/HowGuide/Guide";
 import ModesAndTemplates from "./LandingPage/HowGuide/ModesAndTemplates";
 import Rule from "./LandingPage/HowGuide/Rule";
+import FaqData from "./LandingPage/container/faqData";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
             </Layout>
           }
         />
+
         <Route
           path="/faq"
           element={

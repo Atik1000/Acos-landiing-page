@@ -1,12 +1,7 @@
 import "../style/landingpage/howwork.css";
-
-import { faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
-
 import DownloadIcon from "../icon/icons8-download-64.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import React from "react";
-import uploadIcon from "../icon/uploadIcon.png";
 import whatisACos from "../icon/Screenshot.png";
 
 const HowWork = () => {
@@ -18,7 +13,7 @@ const HowWork = () => {
             <img src={whatisACos} alt="whatisACos" className="whatisACos" />
           </div>
           <div className="col">
-            <h5 className="pb-4">What is ACoS.app?</h5>
+            <h2 className="pb-4">What is ACoS.app?</h2>
             <p style={{ fontWeight: 400 }}>
               ACoS.app is a powerful web application designed specifically to{" "}
               <b>optimize bids</b> for Amazon's Pay-Per-Click (PPC) advertising
@@ -31,7 +26,7 @@ const HowWork = () => {
         </div>
         <div className="row mt-4 pt-4">
           <div className="col-5">
-            <h5 className="pb-4">How Does it Work?</h5>
+            <h2 className="pb-4">How Does it Work?</h2>
             <p className="pb-4 mb-4" style={{ fontWeight: 400,width:"470px" }}>
               Using a robust bid management system, ACoS.app analyzes historical
               campaign data from <b>Bulk Files</b> to identify underperforming
@@ -83,7 +78,7 @@ const HowWork = () => {
                       <b>UPLOAD BULK FILES TO ACoS.app</b>
                     </p>
                     Upload your Bulk Files to ACos.app and watch the magic
-                    happen - with a few simple clicks your bids are optimized.
+                    happen - with a few simple clicks your bids are optimized
                   </div>
                 </div>
               </li>
@@ -103,7 +98,7 @@ const HowWork = () => {
                       <b>DOWNLOAD & UPLOAD TO AMAZON</b>
                     </p>
                     Once the bid adjustments are successfully applied, download
-                    the modified Bulk File from ACoS.app, go to the Bulk.
+                    the modified Bulk File from ACoS.app, go to the Bulk operation portal and upload the Bulk file
                   </div>
                 </div>
               </li>

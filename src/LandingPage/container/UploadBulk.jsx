@@ -33,9 +33,9 @@ const UploadBulk = () => {
             {" "}
             <Link
               className="mb-6 pb-4 how-to-guide"
-              style={{ fontWeight: "bold" }}
+              style={{ fontWeight: "700 !important" }}
             >
-              How-to guide
+              <b>How-to guide</b>
             </Link>
           </b>
         </h2>
@@ -71,10 +71,12 @@ const UploadBulk = () => {
                         <div className="file-title">FILE1 </div>
                         <div className="file-sub">YESTERDAY </div>
                       </div>
+                      <br />
+                      <br />
                       <div className="col-md-12 mt-3 mb-5">
                         <div
                           className="drag-drop mb-4"
-                          style={{ fontSize: "20px" }}
+                          style={{ fontSize: "22px"}}
                         >
                           Drag & drop your file here or{" "}
                           <span style={{ color: "#108ACC" }}> chose file</span>
@@ -117,7 +119,7 @@ const UploadBulk = () => {
                       <div className="col-md-12 mt-3 mb-5">
                         <div
                           className="drag-drop mb-4"
-                          style={{ fontSize: "20px" }}
+                          style={{ fontSize: "22px" }}
                         >
                           Drag & drop your file here or{" "}
                           <span style={{ color: "#108ACC" }}> chose file</span>
@@ -152,8 +154,11 @@ const UploadBulk = () => {
                 borderRadius: 10,
                 backgroundColor: "#108acc",
                 color: "white",
-                textDecoration: "none",
+                transition: "background-color 0.3s ease", // Add transition property
               }}
+              // Add hover styles
+              onMouseEnter={(e) => (e.target.style.backgroundColor = "#0e79b2")}
+              onMouseLeave={(e) => (e.target.style.backgroundColor = "#108acc")}
             >
               FILE READY TO DOWNLOAD
             </Link>

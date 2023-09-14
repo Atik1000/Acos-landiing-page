@@ -1,117 +1,114 @@
 h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .how-to-guide {
-    font-weight: 500 !important;
-    font-size: 40px !important;
-    color: #108ACC;
+  font-size: 40px !important;
+  color: #108acc;
 }
 
 .how-to-guide-admin {
-    font-weight: 400 !important;
-    font-size: 35px !important;
-    color: #6c757d;
+  font-weight: 400 !important;
+  font-size: 35px !important;
+  color: #6c757d;
 }
 
 .file-title {
-    font-size: 71px;
-    font-family: revert;
-    color: #108ACC;
-    font-weight: 900;
-    margin-bottom: 15px;
+  font-size: 71px;
+  font-family: revert;
+  color: #e6edff;
+  font-weight: 900;
+  margin-bottom: 15px;
 }
 
 .drag-drop {
-    font-size: 17px;
-    font-weight: 400;
-    margin-left: 84px;
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 84px;
 }
 
 .shadow-sm {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .file-sub {
-    font-size: 60px;
-    font-family: revert;
-    color: #108ACC;
-    margin-top: -50px;
-    font-weight: 700;
+  font-size: 60px;
+  font-family: revert;
+  color: #e6edff;
+  margin-top: -50px;
+  font-weight: 700;
 }
 
 .file-sub-admin {
-    font-size: 38px;
-    font-family: revert;
-    color: #6c757d40;
-    margin-top: -38px;
-    font-weight: 700;
+  font-size: 38px;
+  font-family: revert;
+  color: #6c757d40;
+  margin-top: -38px;
+  font-weight: 700;
 }
 
 .folderIcon {
-    padding: 53px;
-    background: #e6edff;
-    border-radius: 53%;
-    margin-top: 17px;
-    text-align: center;
+  padding: 53px;
+  background: #e6edff;
+  border-radius: 53%;
+  margin-top: 17px;
+  text-align: center;
 }
 
 .folderIconAdmin {
-    padding: 16%;
-    background: #e6edff;
-    border-radius: 53%;
-    margin-top: 17px;
-    text-align: center;
+  padding: 16%;
+  background: #e6edff;
+  border-radius: 53%;
+  margin-top: 17px;
+  text-align: center;
 }
 
 .fileOne {
-    border: 1px dashed #108ACC!important;
-    background: #F1F6FE;
-    border-radius: 15px;
+  border: 1px dashed #108acc !important;
+  background: #f1f6fe;
+  border-radius: 15px;
 }
-.file-sub-admin{
-  color: #108ACC !important;
+.file-sub-admin {
+  color: #e6edff !important;
 }
 .guZdik {
-    position: relative;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    min-width: 322px;
-    max-width: 508px;
-    height: 150px !important;
-    border: none !important;
-    padding: 8px 16px 8px 8px;
-    border-radius: 8px;
-    background: none;
-    cursor: pointer;
-    -webkit-box-flex: 0;
-    flex-grow: 0;
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  min-width: 322px;
+  max-width: 508px;
+  height: 150px !important;
+  border: none !important;
+  padding: 8px 16px 8px 8px;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
 }
 
 .jWkLDY {
-    display: none !important;
+  display: none !important;
 }
 
 .btn-primary {
-    background-color: #108ACC;
+  background-color: #108acc;
 }
 
 .bEmYHq {
-    position: relative;
-    display: flex;
-    align-items: center;
-    min-width: 322px;
-    max-width: 508px;
-    height: 48px;
-    border: none !important;
-    padding: 8px 16px 8px 8px;
-    border-radius: 5px;
-    cursor: pointer;
-    flex-grow: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 322px;
+  max-width: 508px;
+  height: 48px;
+  border: none !important;
+  padding: 8px 16px 8px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-grow: 0;
 }
-
-
 
 /* Add this CSS at the end of your CSS file or in a separate CSS file for better organization */
 

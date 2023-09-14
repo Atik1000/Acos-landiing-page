@@ -21,7 +21,14 @@ const SignUp = () => {
           <Link
             to="/dashbord"
             className="btn btn-sm btn-primary mb-3  sign-up-btn"
-            style={{ fontSize: "30px", backgroundColor: "#108ACC" }}
+            style={{
+              fontSize: "30px",
+              backgroundColor: "#108ACC",
+              transition: "background-color 0.3s ease", // Add transition property
+            }}
+            // Add hover styles
+            onMouseEnter={(e) => (e.target.style.backgroundColor = "#0e79b2")}
+            onMouseLeave={(e) => (e.target.style.backgroundColor = "#108acc")}
           >
             <img src={googleIcon} alt="google-icon" className="google-icon " />
             Continue with Google

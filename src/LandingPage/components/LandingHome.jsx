@@ -7,6 +7,7 @@ import FAQ from "../container/Faq";
 import Pricing from "../container/Pricing";
 import UploadBulk from "../container/UploadBulk";
 import "../style/landingpage/Landinghome.css";
+import FaqData from "../container/faqData";
 
 const LandingHome = () => {
   return (
@@ -14,6 +15,7 @@ const LandingHome = () => {
       <Header/>
       <Home />
       <HowWork />
+      {/* <FaqData/> */}
       <FAQ />
       <Pricing />
       <UploadBulk />

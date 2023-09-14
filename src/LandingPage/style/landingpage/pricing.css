@@ -28,7 +28,7 @@ hr {
 }
 
 .target {
-  font-size: 13px;
+  font-size: 15px;
   color: gray;
 }
 
@@ -53,7 +53,7 @@ hr {
 
 .subscription-plan-area {
   padding: 4px;
-  background: white;
+  /* background: white; */
 }
 
 .icon {
@@ -62,11 +62,11 @@ hr {
 }
 
 .NoBsPricing {
-  height: 100px;
+  height: 135px;
 }
 
 .pricing {
-  width: 45%;
+  /* width: 45%; */
 }
 
 @media screen and (max-width: 768px) {

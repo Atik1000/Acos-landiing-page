@@ -53,14 +53,22 @@ const Pricing = () => {
                     backgroundColor: "#108acc",
                     color: "white",
                     textDecoration: "none",
+                    transition: "background-color 0.3s ease", // Add transition property
                   }}
+                  // Add hover styles
+                  onMouseEnter={(e) =>
+                    (e.target.style.backgroundColor = "#0e79b2")
+                  }
+                  onMouseLeave={(e) =>
+                    (e.target.style.backgroundColor = "#108acc")
+                  }
                 >
                   Start with 1000 free tokens
                 </Link>
               </div>
-              <p className="text-center target mt-2 keyword">
+              <div className="text-center target mt-2 " style={{fontSize:"15px"}}>
                 Good to Optimize 1000 Keywords or Targets
-              </p>
+              </div>
             </div>
             <div className="col-md-2"></div>
           </div>
