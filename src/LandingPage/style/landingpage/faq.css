@@ -20,6 +20,9 @@
   margin-bottom: 15px;
   margin-right: 10%;
 }
+.row-content-text{
+  width: 80% !important;
+}
 
 .card-header svg {
   cursor: pointer;

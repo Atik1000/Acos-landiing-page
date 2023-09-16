@@ -37,7 +37,10 @@ const SignUp = () => {
         <div className="d-flex justify-content-center">
           <div className="login-bottom-title">
             By signing up you agree to{" "}
-            <Link style={{ color: "#108ACC" }}>Terms and Conditions</Link>{" "}
+            <Link to="/guide-policy" style={{ color: "#108ACC" }}>
+              {" "}
+              Conditions of use
+            </Link>{" "}
           </div>
         </div>
       </div>

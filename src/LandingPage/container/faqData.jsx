@@ -22,12 +22,12 @@ const data = {
     {
       title: "How are unprofitable keywords and targets identified",
       content:
-        "ACoS.app analyzes your PPC campaign data to evaluate the performance of keywords and targets by comparing recent results (File 1 - Yesterday's Data) with historical data(File 2 - 60 Days Data). This comparative approach enables ACoS.app to effectively identify those underperforming keywords and targets and adjust their bids accordingly, resulting in a reduction of wasted ad spend",
+        "ACoS.app analyzes your PPC campaign data to evaluate the performance of keywords and targets by comparing recent results (File 1 - Yesterday's Data) with historical data(File 2 - 60 Days Data). This comparative approach enables ACoS.app to effectively identify those underperforming keywords and targets and adjust their bids accordingly, resulting in a reduction of wasted ad spend.",
     },
     {
       title: "Is it suitable for small and large-scale PPC accounts",
       content:
-        "ACoS.app is designed to handle PPC accounts with campaigns and Bulk Files of all sizes",
+        "ACoS.app is designed to handle PPC accounts with campaigns and Bulk Files of all sizes.",
     },
     {
       title: "Can I customize the rules based on my goals",
@@ -37,11 +37,11 @@ const data = {
     {
       title: "How frequently should I use ACoS.app",
       content:
-        "Depending on your advertising goals, desired level of optimization, campaign performance, and the specified pre-set rules, it is recommended to use ACoS.app on a regular basis - daily or 2-3 times a week. By treating bid optimization as an ongoing effort, you can adapt to changing market conditions, refine your advertising strategy, and continually improve the performance of your PPC campaigns.ACoS.app analyzes your PPC campaign data to evaluate the performance of keywords and targets by comparing recent results (File 1 - Yesterday's Data) with historical data(File 2 - 60 Days Data). This comparative approach enables ACoS.app to effectively identify those underperforming keywords and targets and adjust their bids accordingly, resulting in a reduction of wasted ad spend",
+        "Depending on your advertising goals, desired level of optimization, campaign performance, and the specified pre-set rules, it is recommended to use ACoS.app on a regular basis - daily or 2-3 times a week. By treating bid optimization as an ongoing effort, you can adapt to changing market conditions, refine your advertising strategy, and continually improve the performance of your PPC campaigns."
     },
     {
       title: "Which Campaign Types are supported",
-      content: "Sponsored Products, Sponsored Brands and Sponsored Display ",
+      content: "Sponsored Products, Sponsored Brands and Sponsored Display. ",
     },
     {
       title: "Which Amazon marketplaces are supported",

@@ -27,7 +27,10 @@ const HowWork = () => {
         <div className="row mt-4 pt-4">
           <div className="col-5">
             <h2 className="pb-4">How Does it Work?</h2>
-            <p className="pb-4 mb-4" style={{ fontWeight: 400,width:"470px" }}>
+            <p
+              className="pb-4 mb-4"
+              style={{ fontWeight: 400, width: "470px" }}
+            >
               Using a robust bid management system, ACoS.app analyzes historical
               campaign data from <b>Bulk Files</b> to identify underperforming
               keywords and targets and make the appropriate bid adjustments.
@@ -38,7 +41,8 @@ const HowWork = () => {
             </p>
             <p className="mt-4 pt-4">
               <b>
-                For a detailed How-to Guide, please click <Link>here</Link>{" "}
+                For a detailed How-to Guide, please click{" "}
+                <Link to="/guide">here</Link>{" "}
               </b>{" "}
             </p>
           </div>
@@ -98,7 +102,8 @@ const HowWork = () => {
                       <b>DOWNLOAD & UPLOAD TO AMAZON</b>
                     </p>
                     Once the bid adjustments are successfully applied, download
-                    the modified Bulk File from ACoS.app, go to the Bulk operation portal and upload the Bulk file
+                    the modified Bulk File from ACoS.app, go to the Bulk
+                    Operation Portal and upload the Bulk File
                   </div>
                 </div>
               </li>

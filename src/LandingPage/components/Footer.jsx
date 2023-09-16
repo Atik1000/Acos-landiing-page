@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="col-md-7">
               <div className="row">
                 <div className="col">
-                  <Link to='/'>
+                  <Link to="/">
                     {" "}
                     <ACOSICOn2 style={{ height: 25 }} />
                   </Link>
@@ -29,20 +29,20 @@ const Footer = () => {
                       <Link to="/guide">How-to Guide</Link>
                     </li>
                     <li>
-                      <Link>FAQ</Link>
+                      <Link to="/faq">FAQ</Link>
                     </li>
                     <li>
-                      <Link>Pricing</Link>
+                      <Link to="/pricing">Pricing</Link>
                     </li>
                   </ul>
                 </div>
                 <div className="col">
                   <ul>
                     <li>
-                      <Link to="/rule">Conditions of use</Link>
+                      <Link to="/guide-policy">Conditions of use</Link>
                     </li>
                     <li>
-                      <Link to="/guide-policy">Cookies</Link>
+                      <Link to="/cookie-policy">Cookies</Link>
                     </li>
                     <li>
                       <Link to="/contact">Contact</Link>

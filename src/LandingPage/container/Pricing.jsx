@@ -44,7 +44,7 @@ const Pricing = () => {
               <div className="col d-flex justify-content-center">
                 <Link
                   className="btn btn-primary"
-                  to="/upload-file"
+                  to="/sign-up"
                   style={{
                     fontWeight: 700,
                     padding: "13px 28px",
@@ -66,7 +66,10 @@ const Pricing = () => {
                   Start with 1000 free tokens
                 </Link>
               </div>
-              <div className="text-center target mt-2 " style={{fontSize:"15px"}}>
+              <div
+                className="text-center target mt-2 "
+                style={{ fontSize: "15px" }}
+              >
                 Good to Optimize 1000 Keywords or Targets
               </div>
             </div>
