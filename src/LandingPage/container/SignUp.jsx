@@ -7,10 +7,10 @@ import googleIcon from "../icon/googleIcon.webp";
 
 const SignUp = () => {
   return (
-    <div className="signup">
+    <div className="signup" >
       <div className="container mb-5">
         <div className="d-flex justify-content-center">
-          <ACOSICOn className="icon-signup" style={{ height: 50 }} />
+          <ACOSICOn className="icon-signup" style={{ height: 70 }} />
         </div>
         <div className="d-flex justify-content-center">
           <div className="mb-4 pb-2  login-title">
@@ -22,7 +22,7 @@ const SignUp = () => {
             to="/dashbord"
             className="btn btn-sm btn-primary mb-3  sign-up-btn"
             style={{
-              fontSize: "30px",
+              fontSize: "40px",
               backgroundColor: "#108ACC",
               transition: "background-color 0.3s ease", // Add transition property
             }}
@@ -30,7 +30,7 @@ const SignUp = () => {
             onMouseEnter={(e) => (e.target.style.backgroundColor = "#0e79b2")}
             onMouseLeave={(e) => (e.target.style.backgroundColor = "#108acc")}
           >
-            <img src={googleIcon} alt="google-icon" className="google-icon " />
+            <img src={googleIcon} alt="google-icon" className="google-icon " style={{height:'60px'}} />
             Continue with Google
           </Link>
         </div>

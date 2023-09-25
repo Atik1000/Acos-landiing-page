@@ -52,6 +52,10 @@
   height: 60px;
 }
 
+.row-content-text{
+  font-weight: 400 !important;
+}
+
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
     .box {
