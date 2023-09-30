@@ -21,7 +21,7 @@ const Guide = () => {
       <img src={file4} alt="file4" />
       <div className="mt-4 pt-4 mb-4 pb-4">
         {" "}
-        <Link style={{ color: "#108ACC", marginTop: "15px" }}>
+        <Link to="/sign-up" style={{ color: "#108ACC", marginTop: "15px" }}>
           Start optimizing
         </Link>
       </div>

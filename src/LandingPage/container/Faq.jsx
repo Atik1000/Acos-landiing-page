@@ -53,7 +53,7 @@ const FAQ = () => {
                 style={{ paddingTop: "10px !important", paddingBottom: "83px" }}
               >
                 <h4>
-                  <b>A for any Amazon seller</b>
+                  <b>A must have for any Amazon seller</b>
                 </h4>
                 <p>
                   <i>
